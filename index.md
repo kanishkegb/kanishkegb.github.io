@@ -4,7 +4,9 @@ layout: archive
 
 I am a current PhD candidate at the [Flight Dynamics and Control Lab](http://www2.seas.gwu.edu/~tylee/), at the George Washington University, expecting to graduate soon. 
 
-I have received my master's degree at GWU, in Mechanical and Aerospace Engineering, and completed my bachelor's degree from the University of Peradeniya, Sri Lanka in Mechanical Engineering. 
+I received my master's degree at the George Washington University in Mechanical and Aerospace Engineering, specializing in robotics and control, before starting the PhD program.
+I completed my bachelor's degree in Mechanical Engineering from the University of Peradeniya, Sri Lanka. 
+
 
 ## Contents
 * [Projects](#projects)
@@ -100,7 +102,7 @@ For most up-to-date version, please visit my [Google Scholar page](https://schol
 * Unscented Kalman filter for INS/GNSS data fusion with time delay, K Gamagedara, T Lee, MR Snyder, AIAA Aviation Forum, 2021, DOI: [10.2514/6.2021-2486](https://doi.org/10.2514/6.2021-2486){:target="_blank"}
 * Geometric control and experimental validation for a quadrotor UAV transporting a payload, B Yu, K Gamagedara, S Kim, T Lee, J Suk, 59th IEEE Conference on Decision and Control (CDC), 2020, DOI: [10.1109/CDC42340.2020.9303889](https://doi.org/10.1109/CDC42340.2020.9303889){:target="_blank"}
 * On the observability of attitude with single direction measurements, W Wang, K Gamagedara, T Lee, preprint arXiv:2008.13067, 2020, arXiv: [2008.13067](https://arxiv.org/abs/2008.13067){:target="_blank"}
-* Geometric controls of a quadrotor UAV with decoupled yaw control, K Gamagedara, M Bisheban, E Kaufman, T Lee, American Control Conference (ACC), 2019, DOI: [10.23919/ACC.2019.8815189](https://doi.org/10.23919/ACC.2019.8815189{:target="_blank"}
+* Geometric controls of a quadrotor UAV with decoupled yaw control, K Gamagedara, M Bisheban, E Kaufman, T Lee, American Control Conference (ACC), 2019, DOI: [10.23919/ACC.2019.8815189](https://doi.org/10.23919/ACC.2019.8815189){:target="_blank"}
 * Attitude observer on SO (3) with time-varying reference directions, K Gamagedara, T Lee, DE Chang, 18th European Control Conference (ECC), 2019, DOI: [10.23919/ECC.2019.8796126](https://doi.org/10.23919/ECC.2019.8796126){:target="_blank"}
 * Real-time kinematics GPS based telemetry system for airborne measurements of ship air wake, K Gamagedara, T Lee, MR Snyder, AIAA Scitech Forum, 2019, DOI: [10.2514/6.2019-2377](https://doi.org/10.2514/6.2019-2377){:target="_blank"}
 * Studies on autonomous landing of an unmanned aerial vehicle on a moving ship, AE Robaglia, S Libine, K Gamagedara, K Takami, MR Snyder, T Lee, AIAA Information Systems - AIAA Infotech@ Aerospace, 2018, DOI: [10.2514/6.2018-1461](https://doi.org/10.2514/6.2018-1461){:target="_blank"}
