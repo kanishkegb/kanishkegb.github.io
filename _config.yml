@@ -86,3 +86,6 @@ defaults:
       comments: false
       share: false
       related: false
+
+atom_feed:
+  hide: true
