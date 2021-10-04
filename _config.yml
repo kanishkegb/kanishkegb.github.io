@@ -37,7 +37,7 @@ gems:
 
 # Site Author
 author:
-  name             : "Kanishke Gamagedara"
+  name             : 
   avatar           : "/assets/images/bio-photo.jpg"
   bio              :
   location         : "Washington, DC"
@@ -58,7 +58,7 @@ author:
   linkedin         : "kanishkegb"
   pinterest        :
   soundcloud       :
-  stackoverflow    : # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
+  stackoverflow    : 8371691/kani # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
   steam            :
   tumblr           :
   twitter          :
@@ -71,6 +71,7 @@ author:
 # Build settings
 include: ["_pages"]
 exclude: ["README.md"]
+exclude: [vendor]
 
 # Defaults
 defaults:
