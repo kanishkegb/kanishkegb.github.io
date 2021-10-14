@@ -22,12 +22,29 @@ I developed a UAV and its estimator/controller system for autonomous landing of 
 Further, after noticing that there is a delay in GPS position measurement, I augmented the estimator to forward propagate the delayed measurements to the correct time horizon using IMU measurements. 
 All these improvements have been tested in a successful autonomous landing of a UAV on a US Naval Academy research vessel at Chesapeake bay.
 
+**Features**
+* Jetson TX2 as the onboard computer
+* In-house developed multi-threaded C++ code
+* In-house developed geometric decoupled-yaw controller [[paper](https://doi.org/10.23919/ACC.2019.8815189)]
+* In-house developed delayed Kalman filter as the estimator [[paper](https://doi.org/10.1109/TAES.2021.3061795)]
+* Sensors: IMU - VN100; GPS - SwiftNav Piksi Multi
+* Custom designed PCB for voltage regulation, sensor/ESC communication with the TX2
+* TCP/IP connection through Wi-Fi for UAV communication for sending commands/real-time data monitoring
+* Water-tight encloser for the components
+* Thermal solution for removing heat from the encloser
+
 ### Decoupled-Yaw Geometric Controllers for Unmanned Aerial Vehicles
 [![Decoupled-Yaw Control Video](assets/images/decoupled_yaw_video.png)](http://www.youtube.com/watch?v=w4UcEp5jb0E  "Geometric Controls of a Quadrotor UAV with the Decoupled Attitude Controls"){:target="_blank"}
 
 I developed a geometric control algorithm to reduce the trajectory errors when an unmanned aerial vehicle (UAV) follows a path with large yaw angle rotations, such as scanning an area for mapping. 
 The decoupling of yaw significantly reduced the error, and its efficacy has demonstrated by autonomous UAV flight tests in both indoor (using motion capture) and outdoor (with GPS positioning) settings.
 This has been further augmented to include an adaptive controller, making the UAV control more robust in heavy disturbances such as strong wind.
+
+**Features**
+* Same custom-developed hardware/software system as the UAV used in [Autonomous Landing](#autonomous-landing-of-a-uav-on-a-moving-ship) project
+* Use Vicon motion capture system for position data
+* TCP/IP connection through Wi-Fi for UAV communication for sending commands/real-time data monitoring
+
 
 ### Ship Air-Wake Detection Using Unmanned Aerial Vehicles 
 [![Ship Air-Wake Measurement](assets/images/airwake_video.png)](http://www.youtube.com/watch?v=9FUpj1PZaP8  "Ship Air-Wake Detection Using Unmanned Aerial Vehicles"){:target="_blank"}
@@ -37,11 +54,29 @@ This includes a data package to measure the wind speed behind a ship using an oc
 The data package can measure the relative position of the UAV relative to the ship up to 2 cm accuracy, and includes a telemetry/software system for real time monitoring. 
 The data has been collected using US Naval Academy research vessel YP 700 at Chesapeake Bay.
 
-### Development of an Obstacle Avoidance System for a Quadrotor
+**Features**
+* Raspberry-Pi as the onboard computer
+* Arduino-based system for reading and logging pilot RC commands
+* In-house developed multi-threaded Python code
+* In-house developed Kalman filter for sensor fusion [[paper](https://doi.org/10.2514/6.2019-2377)]
+* Sensors: Anemomters - AT Type A, Anemoment TriSonica Mini; IMU - VN100; GPS - SwiftNav Piksi Multi
+* Custom designed PCB for voltage regulation, sensor communication with the Raspberry-Pi
+* TCP/IP connection through Wi-Fi for UAV communication for sending commands/real-time data monitoring
+* Water-tight encloser for the components
+* Real-time data monitoring and plotting on the base laptop
 
-As my undergraduate year-long group project, my groupmates and I developed hardware/software system for controlling a quadrotor UAV that can detect and avoid obstacles using sonar sensors.
-The development of the system included the implementation of an almost-globallly stable geomtric attitude controller with a large region of stability.
+
+### Implementing an Intrinsic Nonlinear PID Controller
+
+[![Obstacle Avoidance](assets/images/iciis_video.png)](http://www.youtube.com/watch?v=k5eI8baoQec  "Intrinsic Nonlinear PID Controller for a UAV"){:target="_blank"}
+
+As my undergraduate year-long group project, my group-mates and I developed hardware/software system for controlling a quadrotor UAV using an almost-globallly stable geomtric attitude controller with a large region of stability.
 The project was completed satisfactorily winning the The Professor E.F. Bartholomeusz Prize for the best final year project at the University of Peradeniya.
+
+**Features**
+* Multi-Wii as the onboard computer
+* In-house developed controller for UAV control [[paper](https://doi.org/10.1109/ICIINFS.2015.7399049)]
+* Platform independent simulator with real-time data monitoring
 
 ### Mathematical Modelling, Simulation and Control of a SpiderCam System
 [![Ship Air-Wake Measurement](assets/images/spidercam_video.png)](http://www.youtube.com/watch?v=x7ThRxnTI9M   "Spider Cam Simulation"){:target="_blank"}
@@ -97,6 +132,7 @@ This work includes the results published in “Quadrotor State Estimation with I
 Below is my current published research work.
 For most up-to-date version, please visit my [Google Scholar page](https://scholar.google.com/citations?user=iLvJAuEAAAAJ&hl=en).
 
+* Geometric Adaptive controls of a quadrotor UAV with decoupled attitude dynamics, K Gamagedara, T Lee, DOI: [10.1115/1.4052714](https://doi.org/10.1115/1.4052714){:target="_blank"}
 * Quadrotor state estimation with IMU and delayed real-time kinematic GPS, K Gamagedara, T Lee, M Snyder, IEEE Transactions on Aerospace and Electronic Systems, 2021, DOI: [10.1109/TAES.2021.3061795](https://doi.org/10.1109/TAES.2021.3061795){:target="_blank"}
 * In situ detection and analysis of ship air wakes from a US Navy research vessel, MR Snyder, K Gamagedara, T Lee, JA Pritchard, AIAA Aviation Forum, 2021, DOI: [10.2514/6.2021-2485](https://doi.org/10.2514/6.2021-2485){:target="_blank"}
 * Unscented Kalman filter for INS/GNSS data fusion with time delay, K Gamagedara, T Lee, MR Snyder, AIAA Aviation Forum, 2021, DOI: [10.2514/6.2021-2486](https://doi.org/10.2514/6.2021-2486){:target="_blank"}
