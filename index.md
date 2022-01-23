@@ -16,7 +16,7 @@ I completed my bachelor's degree in Mechanical Engineering from the University o
 ## Projects
 ### Autonomous Landing of a UAV on a Moving Ship
 
-[![Autonomous Ship Landing Video](assets/images/landing_video.png)](http://www.youtube.com/watch?v=_WXyo45Oo1Y "Preliminary results for autonomous landing of a UAV on a moving ship"){:target="_blank"}
+[![Autonomous Ship Landing Video](assets/images/landing_video.png)](https://youtu.be/o3fbh8TyZOs "Preliminary results for autonomous landing of a UAV on a moving ship"){:target="_blank"}
 
 I developed a UAV and its estimator/controller system for autonomous landing of a UAV on a moving ship, which includes estimating and compensating for the disturbances incurred by the ship's air wake. 
 Further, after noticing that there is a delay in GPS position measurement, I augmented the estimator to forward propagate the delayed measurements to the correct time horizon using IMU measurements. 
