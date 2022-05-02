@@ -34,7 +34,8 @@ All these improvements have been tested in a successful autonomous landing of a 
 * Thermal solution for removing heat from the encloser
 
 ### Decoupled-Yaw Geometric Controllers for Unmanned Aerial Vehicles
-[![Decoupled-Yaw Control Video](assets/images/decoupled_yaw_video.png)](http://www.youtube.com/watch?v=w4UcEp5jb0E  "Geometric Controls of a Quadrotor UAV with the Decoupled Attitude Controls"){:target="_blank"}
+
+{% include video id="w4UcEp5jb0E" provider="youtube" %}
 
 I developed a geometric control algorithm to reduce the trajectory errors when an unmanned aerial vehicle (UAV) follows a path with large yaw angle rotations, such as scanning an area for mapping. 
 The decoupling of yaw significantly reduced the error, and its efficacy has demonstrated by autonomous UAV flight tests in both indoor (using motion capture) and outdoor (with GPS positioning) settings.
@@ -47,7 +48,7 @@ This has been further augmented to include an adaptive controller, making the UA
 
 
 ### Ship Air-Wake Detection Using Unmanned Aerial Vehicles 
-[![Ship Air-Wake Measurement](assets/images/airwake_video.png)](http://www.youtube.com/watch?v=9FUpj1PZaP8  "Ship Air-Wake Detection Using Unmanned Aerial Vehicles"){:target="_blank"}
+{% include video id="9FUpj1PZaP8" provider="youtube" %}
 
 I have developed several hardware and software systems to detect ship air-wake of a ship using unmanned aerial vehicles (UAVs) as a collaboration between GWU and US Naval Academy. 
 This includes a data package to measure the wind speed behind a ship using an octocopter and a fixed-wing aircraft. 
@@ -68,7 +69,7 @@ The data has been collected using US Naval Academy research vessel YP 700 at Che
 
 ### Implementing an Intrinsic Nonlinear PID Controller
 
-[![Obstacle Avoidance](assets/images/iciis_video.png)](http://www.youtube.com/watch?v=k5eI8baoQec  "Intrinsic Nonlinear PID Controller for a UAV"){:target="_blank"}
+{% include video id="k5eI8baoQec" provider="youtube" %}
 
 As my undergraduate year-long group project, my group-mates and I developed hardware/software system for controlling a quadrotor UAV using an almost-globallly stable geomtric attitude controller with a large region of stability.
 The project was completed satisfactorily winning the The Professor E.F. Bartholomeusz Prize for the best final year project at the University of Peradeniya.
@@ -79,7 +80,8 @@ The project was completed satisfactorily winning the The Professor E.F. Bartholo
 * Platform independent simulator with real-time data monitoring
 
 ### Mathematical Modelling, Simulation and Control of a SpiderCam System
-[![Ship Air-Wake Measurement](assets/images/spidercam_video.png)](http://www.youtube.com/watch?v=x7ThRxnTI9M   "Spider Cam Simulation"){:target="_blank"}
+
+{% include video id="x7ThRxnTI9M" provider="youtube" %}
 
 Spider Cam is a camera which can move over a pre-determined 3 dimensional space, where the dynamics are determined by cables fixed to the camera. 
 By varying the tensions of the cables, the motion of the camera can be varied. The system was mathematically modeled considering the rigid body motion of the camera and sagging of the cables, designed the controller and also developed a way-point tracking controller. 
@@ -120,7 +122,7 @@ This includes a complete framework for simulating a UAV, which includes controll
 
 ### Comparison of delayed Kalman filters, with application to the state estimation of a UAV: [fdcl-gwu/dkf-comparison](https://github.com/fdcl-gwu/dkf-comparison)
 
-[![UAV Control with the Delayed GPS Measurements](assets/images/dkf_comparison_video.png)](http://www.youtube.com/watch?v=PfuGb5yhlLQ   "UAV Control with the Delayed GPS Measurements"){:target="_blank"}
+{% include video id="PfuGb5yhlLQ" provider="youtube" %}
 
 This work includes the results published in “Quadrotor State Estimation with IMU and Delayed Real-time Kinematic GPS”, which compares different delayed Kalman filters for their performances.
 
