@@ -1,8 +1,20 @@
 # Site settings
-remote_theme: "mmistakes/minimal-mistakes"
-title: Kanishke Gamagedara
-
-minimal_mistakes_skin: "air"
+remote_theme : "mmistakes/minimal-mistakes"
+minimal_mistakes_skin : "air"
+title : Kanishke Gamagedara
+title_separator : "-"
+subtitle : # site tagline that appears below site title in masthead
+name : "Kanishke Gamagedara"
+description : "My personal website"
+url : https://kanishkegb.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl : / # the subpath of your site, e.g. "/blog"
+repository : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+teaser : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+logo : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+masthead_title : # overrides the website title displayed in the masthead, use " " for no title
+# breadcrumbs : false # true, false (default)
+words_per_minute : 200
+paginate: 5
 
 
 # Conversion
@@ -69,8 +81,12 @@ author:
 
 
 # Build settings
-include: ["_pages"]
-exclude: ["README.md"]
+# Reading Files
+include:
+  - .htaccess
+  - _pages
+  - _includes
+exclude: README.md"]
 exclude: [vendor]
 
 # Defaults
@@ -78,14 +94,27 @@ defaults:
   # _posts
   - scope:
       path: ""
-      type: pages
+      type: posts
     values:
       layout: archive
       author_profile: true
-      read_time: false
+      read_time: true
       comments: false
-      share: false
-      related: false
+      share: true
+      related: true
 
 atom_feed:
   hide: true
+
+
+footer:
+  links:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/mmistakes"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/mmistakes"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/mmistakes"
