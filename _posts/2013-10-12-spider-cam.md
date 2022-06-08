@@ -1,14 +1,13 @@
 ---
 layout: posts
-title: "Simulation of Spider Cam"
+title: "Mathematical Modelling Simulation and Control of a SpiderCam System"
 date: 2013-10-12
 category: [research]
 tags: [research, simulation, matlab, projects]
 ---
 
-I did my undergrad studies at the University of Peradeniya.
-When we were in the third year, we were required to an individual project.
-I chose to simulate the Spider Cam system.
+As a third year undegrad student of the Mechanical Engineering Department at the University of Peradeniya, we are required to an individual project.
+I chose to model, simulate, and design a controller for the Spider Cam system.
 
 <figure>
     <img src="../../../../assets/images/skycam.jpg" alt="SkyCam in action">
