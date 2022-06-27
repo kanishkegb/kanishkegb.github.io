@@ -13,7 +13,7 @@ Also, the landing deck of the most ships are located on the back of the ship whe
 The goal of this project is to develop a custom UAV platform (both hardware/software) system that is capable of handling autonomous operation in such harsh conditions.
 
 <figure>
-    <img src="../../../../assets/images/hex.jpg" alt="Hexrotor UAV">
+    <img src="/assets/images/hex.jpg" alt="Hexrotor UAV">
     <figcaption>Developed hexrotor UAV for autonomous operations in ocean environments</figcaption>
 </figure>
 
@@ -27,7 +27,7 @@ To address this delay, an extended Kalman filter with delay correction was devel
 Also, an adaptive geometric controller was developed to compensate for turbulent wind conditions inside the ship airwake.
 
 <figure>
-    <img src="../../../../assets/images/yp689.png" alt="USNA research vessel YP689">
+    <img src="/assets/images/yp689.png" alt="USNA research vessel YP689">
     <figcaption>US Naval Academy research vessel YP689 inside the flight operation area</figcaption>
 </figure>
 

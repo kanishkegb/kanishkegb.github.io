@@ -1,19 +1,11 @@
 ---
 layout: single
 permalink: /projects/
-title: ""
+title: "Projects"
 ---
 
-## Contents
-* [Autonomous Landing of a UAV on a Moving Ship](#autonomous-landing-of-a-uav-on-a-moving-ship)
-* [Decoupled-Yaw Geometric Controllers for Unmanned Aerial Vehicles](#decoupled-yaw-geometric-controllers-for-unmanned-aerial-vehicles)
-* [Ship Air-Wake Detection Using Unmanned Aerial Vehicles](#ship-air-wake-detection-using-unmanned-aerial-vehicles)
-* [Implementing an Intrinsic Nonlinear PID Controller](#implementing-an-intrinsic-nonlinear-pid-controller)
-* [Mathematical Modelling, Simulation and Control of a SpiderCam System](#mathematical-modelling-simulation-and-control-of-a-spidercam-system)
-
-<br>
-<br>
-<br>
+Below are a few of the projects I have been involved in.
+Most of the work here were completed when I was in [Flight Dynamics and Control Lab](https://www2.seas.gwu.edu/~tylee/) at GWU.
 
 ## Autonomous Landing of a UAV on a Moving Ship
 
@@ -34,7 +26,7 @@ All these improvements have been tested in a successful autonomous landing of a 
 * Water-tight encloser for the components
 * Thermal solution for removing heat from the encloser
 
-[back to contents](#contents)
+[↑ back to top](#top)
 
 
 ## Decoupled-Yaw Geometric Controllers for Unmanned Aerial Vehicles
@@ -50,7 +42,7 @@ This has been further augmented to include an adaptive controller, making the UA
 * Use Vicon motion capture system for position data
 * TCP/IP connection through Wi-Fi for UAV communication for sending commands/real-time data monitoring
 
-[back to contents](#contents)
+[↑ back to top](#top)
 
 
 ## Ship Air-Wake Detection Using Unmanned Aerial Vehicles 
@@ -72,7 +64,7 @@ The data has been collected using US Naval Academy research vessel YP 700 at Che
 * Water-tight encloser for the components
 * Real-time data monitoring and plotting on the base laptop
 
-[back to contents](#contents)
+[↑ back to top](#top)
 
 
 ## Implementing an Intrinsic Nonlinear PID Controller
@@ -95,4 +87,4 @@ Spider Cam is a camera which can move over a pre-determined 3 dimensional space,
 By varying the tensions of the cables, the motion of the camera can be varied. The system was mathematically modeled considering the rigid body motion of the camera and sagging of the cables, designed the controller and also developed a way-point tracking controller. 
 Considering the entire system, system has been mathematically modelled and has been simulated using MATLAB.
 
-[back to contents](#contents)
+[↑ back to top](#top)

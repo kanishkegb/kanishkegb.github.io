@@ -10,7 +10,7 @@ When a ship moves on a, we can clear see a water wake right behind it.
 Its size and the shape depends on various factors such as the size of the ship, propeller configuration, or the shape of the ship hull.
 
 <figure>
-    <img src="../../../../assets/images/airwake_waterwake.jpg" alt="Water-wake behind a ship">
+    <img src="/assets/images/airwake_waterwake.jpg" alt="Water-wake behind a ship">
     <figcaption>The water-wake behind a ship [source: Wikipedia]</figcaption>
 </figure>
 
@@ -18,7 +18,7 @@ Though we cannot see it, the air behind the ship also makes an air-wake.
 Usually, military ships have super-structure in the front and given its step-like shape, the air-flow creates a low pressure zone right on the landing zone.
 
 <figure>
-    <img src="../../../../assets/images/airwake_low_pressure_zone.png" alt="Low pressure zone over the landing pad">
+    <img src="/assets/images/airwake_low_pressure_zone.png" alt="Low pressure zone over the landing pad">
     <figcaption>The low-pressure zone behind the ship's super-structure</figcaption>
 </figure>
 
@@ -34,7 +34,7 @@ The data package can measure the relative position of the UAV relative to the sh
 
 
 <figure>
-    <img src="../../../../assets/images/airwake_data_package.png" alt="Data package">
+    <img src="/assets/images/airwake_data_package.png" alt="Data package">
     <figcaption>Developed data package installed on the octocopter</figcaption>
 </figure>
 

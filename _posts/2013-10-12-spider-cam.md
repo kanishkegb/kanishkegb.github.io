@@ -10,7 +10,7 @@ As a third year undegrad student of the Mechanical Engineering Department at the
 I chose to model, simulate, and design a controller for the Spider Cam system.
 
 <figure>
-    <img src="../../../../assets/images/skycam.jpg" alt="SkyCam in action">
+    <img src="/assets/images/skycam.jpg" alt="SkyCam in action">
     <figcaption>SkyCam in action [source: Wikipedia]</figcaption>
 </figure>
 
@@ -19,7 +19,7 @@ The camera then can be moved freely on 3D space to record what is happening on t
 Though the word "Spider Cam" is a trademark of a German company with the same name, there are other commercial companies such as SkyCam that provides such services.
 
 <figure>
-    <img src="../../../../assets/images/spidercam_cable.png" alt="Caternary cable free-body-diagram">
+    <img src="/assets/images/spidercam_cable.png" alt="Caternary cable free-body-diagram">
     <figcaption>Free-body-diagram of the modeled catenary cable</figcaption>
 </figure>
 
