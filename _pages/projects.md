@@ -5,15 +5,16 @@ title: ""
 ---
 
 ## Contents
-* [Projects](#projects)
-    * [Autonomous Landing of a UAV on a Moving Ship](#autonomous-landing-of-a-uav-on-a-moving-ship)
-    * [Decoupled-Yaw Geometric Controllers for Unmanned Aerial Vehicles](#decoupled-yaw-geometric-controllers-for-unmanned-aerial-vehicles)
-    * [Ship Air-Wake Detection Using Unmanned Aerial Vehicles](#ship-air-wake-detection-using-unmanned-aerial-vehicles)
-    * [Implementing an Intrinsic Nonlinear PID Controller](#implementing-an-intrinsic-nonlinear-pid-controller)
-    * [Mathematical Modelling, Simulation and Control of a SpiderCam System](#mathematical-modelling-simulation-and-control-of-a-spidercam-system)
-* [Open-Source Contributions](#open-source-contributions)
+* [Autonomous Landing of a UAV on a Moving Ship](#autonomous-landing-of-a-uav-on-a-moving-ship)
+* [Decoupled-Yaw Geometric Controllers for Unmanned Aerial Vehicles](#decoupled-yaw-geometric-controllers-for-unmanned-aerial-vehicles)
+* [Ship Air-Wake Detection Using Unmanned Aerial Vehicles](#ship-air-wake-detection-using-unmanned-aerial-vehicles)
+* [Implementing an Intrinsic Nonlinear PID Controller](#implementing-an-intrinsic-nonlinear-pid-controller)
+* [Mathematical Modelling, Simulation and Control of a SpiderCam System](#mathematical-modelling-simulation-and-control-of-a-spidercam-system)
 
-# Projects
+<br>
+<br>
+<br>
+
 ## Autonomous Landing of a UAV on a Moving Ship
 
 {% include video id="o3fbh8TyZOs" provider="youtube" %}
@@ -93,56 +94,5 @@ The project was completed satisfactorily winning the The Professor E.F. Bartholo
 Spider Cam is a camera which can move over a pre-determined 3 dimensional space, where the dynamics are determined by cables fixed to the camera. 
 By varying the tensions of the cables, the motion of the camera can be varied. The system was mathematically modeled considering the rigid body motion of the camera and sagging of the cables, designed the controller and also developed a way-point tracking controller. 
 Considering the entire system, system has been mathematically modelled and has been simulated using MATLAB.
-
-[back to contents](#contents)
-<br> 
-<br> 
-<br> 
-
-# Open-Source Contributions
-
-A selcted set of open-source repositories where I am the main contributor and maintainer. 
-For most up-to-date details please visit [my GitHub page](https://github.com/kanishkegb).
-
-
-## Working examples/tutorial for detection and pose estimation of ArUco markers with C++: [fdcl-gwu/aruco-markers](https://github.com/fdcl-gwu/aruco-markers)
-
-![Drawing a cube on an AruCo marker](assets/images/aruco_markers.gif)
-
-This is a side project that resulted from the work published in my paper “Attitude observer on SO (3) with time-varying reference directions”. 
-This repository provides C++ codes for basic augmented reality related tasks using computer vision. 
-In fact, this is usually withing the first three Google results when you search for ArUco markers using C++.
-
-[back to contents](#contents)
-
-
-
-## Geometric controllers developed at FDCL for UAVs : [fdcl-gwu/uav_geometric_control](https://github.com/fdcl-gwu/uav_geometric_control)
-
-![Projects that used the controllers in the repository](assets/images/uav_geometric_control.png)
-
-This repository includes the controller proposed in “Geometric controls of a quadrotor UAV with decoupled yaw control”.
-In addition, this includes both coupled-yaw and decoupled-yaw controllers in Matlab, Python, and C++ for any interested person to use in their projects.
-
-[back to contents](#contents)
-
-
-
-## Python - Gazebo simulation environment for a UAV with geometric control: [fdcl-gwu/uav_simulator](https://github.com/fdcl-gwu/uav_simulator)
-
-![UAV Simulator GUI](assets/images/uav_simulator.gif)
-
-This is another output of the work published in “Geometric controls of a quadrotor UAV with decoupled yaw control”. 
-This includes a complete framework for simulating a UAV, which includes controller, estimator, using an open-source physics engine.
-
-[back to contents](#contents)
-
-
-
-## Comparison of delayed Kalman filters, with application to the state estimation of a UAV: [fdcl-gwu/dkf-comparison](https://github.com/fdcl-gwu/dkf-comparison)
-
-{% include video id="PfuGb5yhlLQ" provider="youtube" %}
-
-This work includes the results published in “Quadrotor State Estimation with IMU and Delayed Real-time Kinematic GPS”, which compares different delayed Kalman filters for their performances.
 
 [back to contents](#contents)
