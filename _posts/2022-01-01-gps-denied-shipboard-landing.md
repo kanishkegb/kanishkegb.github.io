@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Autonomous Landing of a UAV on a Moving Ship"
-date: 2021-01-01
+date: 2022-01-01
 category: [news]
 tags: [research, hardware, uav, control, uav-control, geometric-control, shipboard-landing, ocean-environments, uav-landing, projects]
 header:
@@ -11,7 +11,6 @@ header:
 For an autonomous UAV, or for any aerial vehicle in general, one of the most safety critical operations is the landing.
 This becomes even challenging when being operated off of a ship.
 Now, the ship, which is the base point of operation, is moving while rolling and pitching constantly on ocean waves.
-
 Also, the landing deck of the most ships are located on the back of the ship where the super-structure of the ship generates a turbulent air wake, which is not friendlly on small UAVs.
 The goal of this project is to develop a custom UAV platform (both hardware/software) system that is capable of handling autonomous operation in such harsh conditions.
 

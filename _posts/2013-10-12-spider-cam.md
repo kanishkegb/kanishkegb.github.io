@@ -1,9 +1,11 @@
 ---
-layout: posts
+layout: single
 title: "Mathematical Modelling Simulation and Control of a SpiderCam System"
 date: 2013-10-12
 category: [research]
 tags: [research, simulation, matlab, projects]
+header:
+  teaser: "/assets/images/spidercam_cable.png"
 ---
 
 As a third year undegrad student of the Mechanical Engineering Department at the University of Peradeniya, we are required to an individual project.

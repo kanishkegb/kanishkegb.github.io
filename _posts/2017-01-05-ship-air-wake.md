@@ -1,15 +1,14 @@
 ---
-layout: posts
+layout: single
 title: "Measurements of Ship Air Wake Using Airborne Anemometers"
 date: 2017-01-05
-image: "/assets/images/airwake_waterwake.jpg"
 category: [news]
 tags: [research, hardware, ship, airwake, ship-airwake, flight-tests, projects]
 header:
-  teaser: "/assets/images/airwake_waterwake.jpg"
+  teaser: "/assets/images/airwake_data_package.png"
 ---
 
-When a ship moves on a, we can clearly see a water wake right behind it.
+When a ship moves on a water surface, we can clearly see a water wake right behind it.
 Its size and the shape depends on various factors such as the size of the ship, propeller configuration, or the shape of the ship hull.
 
 <figure>

@@ -1,24 +1,27 @@
 ---
 layout: single
 permalink: /open-source/
-title: ""
+title: "Open-Source Contributions"
 ---
-
-# Open-Source Contributions
 
 A selcted set of open-source repositories where I am the main contributor and maintainer. 
 For most up-to-date details please visit [my GitHub page](https://github.com/kanishkegb).
+
+<iframe src="https://ghbtns.com/github-btn.html?user=kanishkegb&type=follow&count=true&size=large" frameborder="0" scrolling="0" width="230" height="30" title="GitHub"></iframe>
 
 
 ## Working examples/tutorial for detection and pose estimation of ArUco markers with C++: [fdcl-gwu/aruco-markers](https://github.com/fdcl-gwu/aruco-markers)
 
 ![Drawing a cube on an AruCo marker](../../../../assets/images/aruco_markers.gif)
 
+<iframe src="https://ghbtns.com/github-btn.html?user=fdcl-gwu&repo=aruco-markers&type=star&count=true&size=large" frameborder="0" scrolling="0" width="170" height="30" title="GitHub"></iframe>
+<iframe src="https://ghbtns.com/github-btn.html?user=fdcl-gwu&repo=aruco-markers&type=fork&count=true&size=large" frameborder="0" scrolling="0" width="170" height="30" title="GitHub"></iframe>
+
 This is a side project that resulted from the work published in my paper “Attitude observer on SO (3) with time-varying reference directions”. 
 This repository provides C++ codes for basic augmented reality related tasks using computer vision. 
 In fact, this is usually withing the first three Google results when you search for ArUco markers using C++.
 
-[↑ back to top](#open-source-contributions)
+[↑ back to top](#top)
 
 
 
@@ -26,10 +29,13 @@ In fact, this is usually withing the first three Google results when you search 
 
 ![Projects that used the controllers in the repository](../../../../assets/images/uav_geometric_control.png)
 
+<iframe src="https://ghbtns.com/github-btn.html?user=fdcl-gwu&repo=uav_geometric_control&type=star&count=true&size=large" frameborder="0" scrolling="0" width="170" height="30" title="GitHub"></iframe>
+<iframe src="https://ghbtns.com/github-btn.html?user=fdcl-gwu&repo=uav_geometric_control&type=fork&count=true&size=large" frameborder="0" scrolling="0" width="170" height="30" title="GitHub"></iframe>
+
 This repository includes the controller proposed in “Geometric controls of a quadrotor UAV with decoupled yaw control”.
 In addition, this includes both coupled-yaw and decoupled-yaw controllers in Matlab, Python, and C++ for any interested person to use in their projects.
 
-[↑ back to top](#open-source-contributions)
+[↑ back to top](#top)
 
 
 
@@ -37,10 +43,13 @@ In addition, this includes both coupled-yaw and decoupled-yaw controllers in Mat
 
 ![UAV Simulator GUI](../../../../assets/images/uav_simulator.gif)
 
+<iframe src="https://ghbtns.com/github-btn.html?user=fdcl-gwu&repo=uav_simulator&type=star&count=true&size=large" frameborder="0" scrolling="0" width="170" height="30" title="GitHub"></iframe>
+<iframe src="https://ghbtns.com/github-btn.html?user=fdcl-gwu&repo=uav_simulator&type=fork&count=true&size=large" frameborder="0" scrolling="0" width="170" height="30" title="GitHub"></iframe>
+
 This is another output of the work published in “Geometric controls of a quadrotor UAV with decoupled yaw control”. 
 This includes a complete framework for simulating a UAV, which includes controller, estimator, using an open-source physics engine.
 
-[↑ back to top](#open-source-contributions)
+[↑ back to top](#top)
 
 
 
@@ -48,6 +57,10 @@ This includes a complete framework for simulating a UAV, which includes controll
 
 {% include video id="PfuGb5yhlLQ" provider="youtube" %}
 
+<iframe src="https://ghbtns.com/github-btn.html?user=fdcl-gwu&repo=dkf-comparison&type=star&count=true&size=large" frameborder="0" scrolling="0" width="170" height="30" title="GitHub"></iframe>
+<iframe src="https://ghbtns.com/github-btn.html?user=fdcl-gwu&repo=dkf-comparison&type=fork&count=true&size=large" frameborder="0" scrolling="0" width="170" height="30" title="GitHub"></iframe>
+
 This work includes the results published in “Quadrotor State Estimation with IMU and Delayed Real-time Kinematic GPS”, which compares different delayed Kalman filters for their performances.
 
-[↑ back to top](#open-source-contributions)
+
+[↑ back to top](#top)

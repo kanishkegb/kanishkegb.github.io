@@ -1,9 +1,11 @@
 ---
-layout: posts
+layout: single
 title: "Implementing an Intrinsic Nonlinear PID Controller"
 date: 2015-07-01
 category: [news]
 tags: [research, hardware, uav, quadrotor, projects]
+header:
+  teaser: "/assets/images/intrinsic_pid_flight_test.png"
 ---
 
 For the final year undergrad group project at the Mechanical Engineering Department at the University of Peradeniya, I was involved in an implementation of an intrinsic nonlinear PID controller for a quadrotor UAV.

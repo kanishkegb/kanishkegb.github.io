@@ -1,9 +1,11 @@
 ---
-layout: posts
+layout: single
 title: "Decoupled-Yaw Geometric Controllers for Unmanned Aerial Vehicles"
 date: 2020-01-01
 category: [news]
 tags: [research, hardware, uav, control, uav-control, geometric-control, projects]
+header:
+  teaser: "/assets/images/spidercam_cable.png"
 ---
 
 When a ship moves on a, we can clear see a water wake right behind it.

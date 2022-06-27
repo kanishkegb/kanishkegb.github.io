@@ -15,7 +15,7 @@ masthead_title : # overrides the website title displayed in the masthead, use " 
 # breadcrumbs : false # true, false (default)
 words_per_minute : 200
 paginate: 5
-paginate_path: "/_posts/page:2/"
+paginate_path: "/page:num/"
 
 
 # Conversion
@@ -87,6 +87,7 @@ include:
   - .htaccess
   - _pages
   - _includes
+  - _layouts
 exclude: README.md"]
 exclude: [vendor]
 
