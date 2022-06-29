@@ -1,21 +1,19 @@
 ---
-layout: single
-title: "Autonomous Landing of a UAV on a Moving Ship"
-date: 2022-01-01
-category: [news]
-tags: [research, hardware, uav, control, uav-control, geometric-control, shipboard-landing, ocean-environments, uav-landing, projects]
-header:
-  teaser: "/assets/images/shipboard_landing_video.png"
+layout: post
+title: "GPS-Denied Autonomous Landing of a UAV on a Moving Ship"
+category: [research, hardware, uav, control, shipboard-landing, projects, computer-vision]
+image: assets/images/posts/shipboard_landing/yp689.png
 ---
 
 For an autonomous UAV, or for any aerial vehicle in general, one of the most safety critical operations is the landing.
 This becomes even challenging when being operated off of a ship.
 Now, the ship, which is the base point of operation, is moving while rolling and pitching constantly on ocean waves.
+
 Also, the landing deck of the most ships are located on the back of the ship where the super-structure of the ship generates a turbulent air wake, which is not friendlly on small UAVs.
 The goal of this project is to develop a custom UAV platform (both hardware/software) system that is capable of handling autonomous operation in such harsh conditions.
 
 <figure>
-    <img src="/assets/images/hex.jpg" alt="Hexrotor UAV">
+    <img src="{{site.baseurl}}/assets/images/posts/shipboard_landing/hex.jpg" alt="Hexrotor UAV">
     <figcaption>Developed hexrotor UAV for autonomous operations in ocean environments</figcaption>
 </figure>
 
@@ -29,7 +27,7 @@ To address this delay, an extended Kalman filter with delay correction was devel
 Also, an adaptive geometric controller was developed to compensate for turbulent wind conditions inside the ship airwake.
 
 <figure>
-    <img src="/assets/images/yp689.png" alt="USNA research vessel YP689">
+    <img src="{{site.baseurl}}/assets/images/posts/shipboard_landing/yp689.png" alt="USNA research vessel YP689">
     <figcaption>US Naval Academy research vessel YP689 inside the flight operation area</figcaption>
 </figure>
 
@@ -51,7 +49,6 @@ All the computations, inlcuding the estimation, control, and motor control were 
 <br>
 Below video shows the developed system being operated  off of US Naval Academy research vessel YP 700 at Chesapeake Bay.
 
-{% include video id="o3fbh8TyZOs" provider="youtube" %}
-
-<br>
-<br>
+<div class="video-container">
+<iframe src="https://www.youtube.com/embed/o3fbh8TyZOs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</div>

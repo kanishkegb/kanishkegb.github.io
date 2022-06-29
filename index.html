@@ -1,13 +1,73 @@
 ---
-layout: archive
-author_profile: true
-title: ""
+title: Home
+layout: default
+background: '/img/bg-index.jpg'
 ---
 
-<h1 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h1>
+<!-- Home Intro
+================================================== -->
+{% if page.url == "/" %} 
+<div class="rounded mb-5 p-4 p-lg-5 light_gray">
+  <div class="row align-items-center justify-content-between">
+    <div class="col-md-6 m-0 p-0">
+      <p class="lead mb-0 l-1">I am Kanishke, and I love working on UAVs!</p>
+      <br>
+      <p class="lead mb-0 l-1">My main  interests include developing new algorithms to control UAVs, and to develop estimators for UAV state estimation.</p>
+      <br>  
+      <p class="lead mb-0 l-1">I try to share what I work on here, especially things that are hard to find on the internet.</p>
+      <br>
+      <a href="{{site.baseurl}}/about" class="btn btn-dark text-white px-5 btn-lg">About Me</a>
+      <br>
+    </div>
+    <div class="m-0 p-0 col-md-6 text-right">
+      <center>
+      <img class="rounded mt-4 mt-lg-0" src="{{site.baseurl}}/assets/images/bio.jpg">      
+      </center>
+    </div>
+  </div>
+</div>
+{% endif %}
 
-{% for post in paginator.posts %}
-  {% include archive-single-kani.html %}
-{% endfor %}
+<!-- Featured
+================================================== -->
+<section class="row">
+  {% for post in site.posts %}
+      {% if post.featured == true %}
+          <div class="col-md-4 mb-5">
+          {% include postbox.html %}
+          </div>
+      {% endif %}
+  {% endfor %}
+  </div>
+</section>
 
-{% include paginator.html %}
+<!-- Posts List with Sidebar (except featured)
+================================================== -->
+
+<br>
+<p class="h1">Recent Posts</p>
+<br>
+<br>
+
+<section class="row">
+  <div class="col-sm-8">
+    <div class="row">
+      {% for post in paginator.posts %}
+      {% unless post.featured == true %}
+      <div class="col-md-6 mb-5">
+        {% include postbox.html %}
+      </div>
+      {% endunless %}
+      {% endfor %}
+    </div>
+    <!-- Pagination -->
+    <div class="bottompagination">
+      <span class="navigation" role="navigation">
+          {% include pagination.html %}
+      </span>
+    </div>
+  </div>
+  <div class="col-sm-4">
+    {% include sidebar.html %}
+  </div>
+</section>

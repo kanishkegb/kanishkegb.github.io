@@ -2,25 +2,25 @@
 
 ## Offline Site Building
 
-### Install Ruby
-```
-gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB
-\curl -sSL https://get.rvm.io | bash -s stable --ruby
-source ~/.profile
-rvm install ruby --latest
-```
+# Dependencies
+1. Install [Ruby](https://www.ruby-lang.org/en/documentation/installation/)
 
-### Install Gems
-Run these commands from the repository
-```
-gem install bundler
-bundle install
-```
+# Generating the Website
+1. Clone and `cd` to the website 
+1. `bundle`
+1. Edit `_config.yml`. If your site is in root: baseurl: ''.
+1. Build the website: `jekyll serve --watch`
+1. Open `localhost:4000` to check the generated website.
 
-If the `bundle install` fails, trying deleting `Gemfile.lock`.
+# Creating a Post
+1. Create a new markdown file inside the `posts` directory.
+1. Keep the same file name format.
+1. Add the content to the post.
+1. Refresh the browser tab.
 
-### Run the Server
-Run below command and visit `localhost:4000` to view the site
-```
-  bundle exec jekyll serve
-```
+
+# Made with the free Affiliates theme
+
+[Live Demo](https://wowthemesnet.github.io/affiliates-jekyll-theme/) | [Docs & Download](https://bootstrapstarter.com/template-affiliates-bootstrap-jekyll/) |  [Buy me a coffee](https://www.wowthemes.net/donate/)
+
+![jekyll-affiliates-theme](https://bootstrapstarter.com/assets/img/themes/affiliates-jekyll.jpg)

@@ -1,20 +1,23 @@
 # Site settings
-remote_theme : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin : "air"
 title : Kanishke Gamagedara
 title_separator : "-"
 subtitle : # site tagline that appears below site title in masthead
+permalink: "/:title/"
+logo: 'assets/images/logo.png'
 name : "Kanishke Gamagedara"
 description : "My personal website"
-url : https://kanishkegb.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl : / # the subpath of your site, e.g. "/blog"
+url : https://kanishkegb.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl : # the subpath of your site, e.g. "/blog"
 repository : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs : false # true, false (default)
+
+locale: en_us
+lang: en_us
 words_per_minute : 200
-paginate: 5
+paginate: 10
 paginate_path: "/page:num/"
 
 
@@ -25,6 +28,10 @@ lsi: false
 excerpt_separator: "\n\n"
 incremental: false
 
+sass:
+  sass_dir: _sass
+  style: :compressed
+ganalytics: 
 
 # Markdown Processing
 kramdown:
@@ -46,92 +53,14 @@ gems:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
+  - jekyll-seo-tag
+  - jekyll-archives
 
 
-# Site Author
-author:
-  name             : 
-  avatar           : "/assets/images/bio-photo.jpg"
-  bio              :
-  location         : "Washington, DC"
-  email            : "kanishkegb@gmail.com"
-  uri              :
-  bitbucket        :
-  codepen          :
-  dribbble         :
-  flickr           :
-  facebook         :
-  foursquare       :
-  github           : "kanishkegb"
-  gitlab           :
-  google_plus      :
-  keybase          :
-  instagram        : "kanishkegb"
-  lastfm           :
-  linkedin         : "kanishkegb"
-  pinterest        :
-  soundcloud       :
-  stackoverflow    : 8371691/kani # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
-  steam            :
-  tumblr           :
-  twitter          :
-  vine             :
-  weibo            :
-  xing             :
-  youtube          : # "https://youtube.com/c/MichaelRoseDesign"
-
-
-# Build settings
-# Reading Files
-include:
-  - .htaccess
-  - _pages
-  - _includes
-  - _layouts
-exclude: README.md"]
-exclude: [vendor]
-
-# Defaults
-defaults:
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: single
-      author_profile: true
-      read_time: false
-      comments: false
-      share: true
-      related: false
-      show_date: false
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: false
-      share: true
-      related: true
-      show_date: true
-
-atom_feed:
-  hide: true
-
-
-footer:
-  links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/kanishkegb"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/kanishkegb"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/kanishkegb"
-
-
-# fixes "No GitHub API authentication" error
-github: [metadata]
+# Social
+social:
+  github           : https://github.com/kanishkegb
+  instagram        : https://instagram.com/kanishkegb
+  linkedin         : https://www.linkedin.com/in/kanishkegb
+  stackoverflow    : https://stackoverflow.com/users/8371691/kani
+  twitter          : https://twitter.com/kanishkegb

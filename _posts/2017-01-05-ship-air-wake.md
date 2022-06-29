@@ -1,26 +1,19 @@
 ---
-layout: single
+layout: post
 title: "Measurements of Ship Air Wake Using Airborne Anemometers"
-date: 2017-01-05
-category: [news]
-tags: [research, hardware, ship, airwake, ship-airwake, flight-tests, projects]
-header:
-  teaser: "/assets/images/airwake_data_package.png"
+category: [research, hardware, ship, airwake, flight-tests, projects]
+image: assets/images/posts/airwake/waterwake.jpg
 ---
 
-When a ship moves on a water surface, we can clearly see a water wake right behind it.
-Its size and the shape depends on various factors such as the size of the ship, propeller configuration, or the shape of the ship hull.
 
-<figure>
-    <img src="/assets/images/airwake_waterwake.jpg" alt="Water-wake behind a ship">
-    <figcaption>The water-wake behind a ship [source: Wikipedia]</figcaption>
-</figure>
+When a ship moves on a, we can clearly see a water wake right behind it.
+Its size and the shape depends on various factors such as the size of the ship, propeller configuration, or the shape of the ship hull.
 
 Though we cannot see it, the air behind the ship also makes an air-wake.
 Usually, military ships have super-structure in the front and given its step-like shape, the air-flow creates a low pressure zone right on the landing zone.
 
 <figure>
-    <img src="/assets/images/airwake_low_pressure_zone.png" alt="Low pressure zone over the landing pad">
+    <img src="/assets/images/posts/airwake/low_pressure_zone.png" alt="Low pressure zone over the landing pad">
     <figcaption>The low-pressure zone behind the ship's super-structure</figcaption>
 </figure>
 
@@ -36,24 +29,20 @@ The data package can measure the relative position of the UAV relative to the sh
 
 
 <figure>
-    <img src="/assets/images/airwake_data_package.png" alt="Data package">
+    <img src="/assets/images/posts/airwake/data_package.png" alt="Data package">
     <figcaption>Developed data package installed on the octocopter</figcaption>
 </figure>
 
 **Features**
-* Raspberry-Pi as the onboard computer
-* Arduino-based system for reading and logging pilot RC commands
-* In-house developed multi-threaded Python code
-* In-house developed Kalman filter for sensor fusion [[paper](https://doi.org/10.2514/6.2019-2377)]
-* Sensors: Anemomters - AT Type A, Anemoment TriSonica Mini; IMU - VN100; GPS - SwiftNav Piksi Multi
-* Custom designed PCB for voltage regulation, sensor communication with the Raspberry-Pi
+* Custom developed hardware/software UAV platform using off-the-shelf hardware components
+* Use Vicon motion capture system for position data
 * TCP/IP connection through Wi-Fi for UAV communication for sending commands/real-time data monitoring
-* Water-tight encloser for the components
-* Real-time data monitoring and plotting on the base laptop
 
 Below video shows the developed system being operated  off of US Naval Academy research vessel YP 700 at Chesapeake Bay.
 
-{% include video id="9FUpj1PZaP8" provider="youtube" %}
+<div class="video-container">
+<iframe src="https://www.youtube.com/embed/w4UcEp5jb0E" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</div>
 
 <br>
 <br>
