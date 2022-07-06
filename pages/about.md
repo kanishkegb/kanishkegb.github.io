@@ -5,7 +5,11 @@ permalink: "/about/"
 # image: assets/images/screenshot.png
 ---
 
-I am a current PhD candidate at the [Flight Dynamics and Control Lab](http://www2.seas.gwu.edu/~tylee/), at the George Washington University, expecting to graduate soon. 
+I am a Robotics Engineer working on UAVs at [American Robotics](https://www.american-robotics.com/).
+
+I earned my PhD at The George Washington University, and I worked at the [Flight Dynamics and Control Lab](http://www2.seas.gwu.edu/~tylee/). 
+My research there involved developing UAV controllers and estimators, and hardware/software systems, that are capable of handling ocean environments.
+My dissertation was entitled "Geometric Control and Estimation for Autonomous UAVs in Ocean Environments".
 
 I received my master's degree at the George Washington University in Mechanical and Aerospace Engineering, specializing in robotics and control, before starting the PhD program.
 I completed my bachelor's degree in Mechanical Engineering at the University of Peradeniya, Sri Lanka. 
