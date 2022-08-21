@@ -6,7 +6,7 @@ image: assets/images/posts/airwake/waterwake.jpg
 ---
 
 
-When a ship moves on a, we can clearly see a water wake right behind it.
+When a ship moves on a water surface, we can clearly see a water wake right behind it.
 Its size and the shape depends on various factors such as the size of the ship, propeller configuration, or the shape of the ship hull.
 
 Though we cannot see it, the air behind the ship also makes an air-wake.
@@ -41,7 +41,7 @@ The data package can measure the relative position of the UAV relative to the sh
 Below video shows the developed system being operated  off of US Naval Academy research vessel YP 700 at Chesapeake Bay.
 
 <div class="video-container">
-<iframe src="https://www.youtube.com/embed/w4UcEp5jb0E" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/9FUpj1PZaP8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 </div>
 
 <br>

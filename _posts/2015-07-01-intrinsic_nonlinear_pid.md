@@ -12,7 +12,7 @@ Also, this controller estimates the gyro bias which is common in low-cost off th
 An Arduino based Multi-Wii flight controller was used as the flight controller and the implementation was tested and verified with real-time flight tests.
 
 <figure>
-    <img src="/assets/images/intrinsic_pid/large_roll.png" alt="Large roll angle test results">
+    <img src="/assets/images/posts/intrinsic_nonlinear_pid/large_roll.png" alt="Large roll angle test results">
     <figcaption>The UAV during a 90 degree roll</figcaption>
 </figure>
 
@@ -20,7 +20,7 @@ Further, as a part of this project, an OS independent GUI was developed for real
 This utilized the OpenGL to draw 3D objects, the Boost library to communicate with the serial port, and the wxWidget library to realize the GUI.
 
 <figure>
-    <img src="/assets/images/intrinsic_pid/gui.png" alt="GUI">
+    <img src="/assets/images/posts/intrinsic_nonlinear_pid/gui.png" alt="GUI">
     <figcaption>The GUI developed for real-time data monitoring</figcaption>
 </figure>
 
