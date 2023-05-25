@@ -46,7 +46,7 @@ All the computations, inlcuding the estimation, control, vision-processing and m
 
 
 <br>
-Below video shows the developed system being operated  off of US Naval Academy research vessel YP 789 at Chesapeake Bay.
+Below video shows the developed system being operated  off of US Naval Academy research vessel YP689 at Chesapeake Bay.
 
 <div class="video-container">
 <iframe src="https://www.youtube.com/embed/v8euxR5UpUY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
