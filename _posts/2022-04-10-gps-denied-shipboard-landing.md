@@ -3,6 +3,7 @@ layout: post
 title: "Vision-Based Autonomous Landing of a UAV on a Moving Ship"
 category: [research, hardware, uav, control, gps-denied, shipboard-landing, computer-vision, projects]
 image: assets/images/posts/shipboard_landing/vision-based-landing.png
+# featured: true
 ---
 
 This is an extension of the [Autonomous Landing of a UAV on a Moving Ship]({{site.baseurl}}/shipboard-landing/) project.
