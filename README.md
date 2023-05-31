@@ -8,9 +8,9 @@
 # Starting with Docker
 ```sh
 docker build -t website .
-docker run --mount source="$(pwd)",target=/home,type=bind -p 4000:4000 -it website bash
+docker run --rm --mount source="$(pwd)",target=/home,type=bind -p 4000:4000 -it website bash
 bundle
-jekyll serve --host 0.0.0.0 --watch 
+jekyll serve --host 0.0.0.0 --watch
 ```
 
 # Generating the Website
