@@ -41,7 +41,7 @@ Then, add the following line to your markdown page:
 ```sh
 { % include_relative relative/path/to/plotly_example.html % } 
 ```
-**NOTE**: Make sure to delete the space between the curly brackets and the percentage signs. I had to keep the space here to avoid markdown parsing the line. 
+**NOTE**: Make sure to delete the space between the curly braces and the percentage signs. I had to keep the space here to avoid markdown parsing the line. 
 
 Of course, replace `relative/path/to/` with the actual relative path.
 For example, if both markdown and the HTML files are in the same directory, this will be,
@@ -49,7 +49,7 @@ For example, if both markdown and the HTML files are in the same directory, this
 { % include_relative plotly_example.html % } 
 ```
 
-Now, you can see the interactive image on your website. 
+Now, you should be able to see the interactive image on your website, similar to the below plot.
 You can interact with your mouse, zoom in, check data points, or save the image as a PNG file.
 
 {% include_relative plotly_example.html %} 
