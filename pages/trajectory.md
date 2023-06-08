@@ -37,7 +37,7 @@ One drawback of using this method the need to change the acceleration abruptly.
 
 <figure>
     <img src="/assets/images/posts/jerk-limited/accel_limited.png" alt="Acceleration-limited trajectory">
-    <figcaption><i>Acceleration-limited trajectory: Check the velocity plot. Even though the position plot seems smooth, this trajectory generation requires sudden changes in the velocity.</i></figcaption>
+    <figcaption><i>Acceleration-limited trajectory: Check the velocity and acceleration plotd. Even though the position plot is visibly smooth, this trajectory generation requires sudden changes in both velocity and acceleration.</i></figcaption>
 </figure>
 
 
@@ -56,7 +56,7 @@ Note that the second waypoint is a velocity waypoint that does not include posit
 
 <figure>
     <img src="/assets/images/posts/jerk-limited/jerk_limited.png" alt="Jerk-limited trajectory">
-    <figcaption><i>Jerk-limited trajectory: This does not require any of the position, velocity, or acceleration to make sudden changes.</i></figcaption>
+    <figcaption><i>Jerk-limited trajectory: This does not require any of the position or velocity to make sudden changes.</i></figcaption>
 </figure>
 
 This plot shows the position, velocity, acceleration, and jerk as a function of time for a 1-dimensional jerk-limited trajectory starting with all zero, except a positive jerk of 4 m/s^3.
