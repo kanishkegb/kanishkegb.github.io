@@ -3,7 +3,7 @@ layout: post
 title: "Vision-Based Autonomous Landing of a UAV on a Moving Ship"
 category: [research, hardware, uav, control, gps-denied, shipboard-landing, computer-vision, projects]
 image: assets/images/posts/shipboard_landing/vision-based-landing.png
-# featured: true
+featured: true
 ---
 
 This is an extension of the [Autonomous Landing of a UAV on a Moving Ship]({{site.baseurl}}/shipboard-landing/) project.
@@ -32,7 +32,7 @@ To address this, the vision-position was integrated though the delay-corrected e
 </figure>
 
 With the above UAV platform, the flight tests were performed onboard the US Naval Academy research vessel YP689 at Chesapeake Bay.
-All the computations, inlcuding the estimation, control, vision-processing and motor control were processed inside the single onboard computer, Jetson TX2.
+All the computations, including the estimation, control, vision-processing and motor control were processed inside the single onboard computer, Jetson TX2.
 
 **Features**
 * Jetson TX2 as the onboard computer
