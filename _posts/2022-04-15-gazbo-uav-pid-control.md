@@ -6,7 +6,7 @@ image: assets/images/posts/uav-simulations/gazebo-pid-control.png
 # featured: true
 ---
 
-This is a basic example for using ROS and Gazebo to position control a quadrotor UAV, using C++. 
+The repository [fdcl-uav/gazebo_uav_control](https://github.com/fdcl-gwu/gazebo_uav_control) is a basic example for using ROS and Gazebo to position control a quadrotor UAV, using C++. 
 A simple PID controller (not the internal ROS controller) is used as the controller.
 The objective here is for someone new to the UAV control with ROS + Gazebo to figure out where to start.
 
