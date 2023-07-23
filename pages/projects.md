@@ -81,7 +81,7 @@ The data has been collected using US Naval Academy research vessel YP 700 at Che
 <iframe src="https://www.youtube.com/embed/k5eI8baoQec" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 </div>
 
-As my undergraduate year-long group project, my group-mates and I developed hardware/software system for controlling a quadrotor UAV using an almost-globallly stable geomtric attitude controller with a large region of stability.
+As my undergraduate year-long group project, my group-mates and I developed hardware/software system for controlling a quadrotor UAV using an almost-globally stable geomtric attitude controller with a large region of stability.
 The project was completed satisfactorily winning the The Professor E.F. Bartholomeusz Prize for the best final year project at the University of Peradeniya.
 
 **Features**

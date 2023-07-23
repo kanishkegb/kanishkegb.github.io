@@ -2,7 +2,7 @@
 layout: page
 title: Jerk-Limited Trajectory
 permalink: "/trajectory/"
-# image: assets/images/screenshot.png
+image: /assets/images/posts/jerk-limited/accel_limited.png
 ---
 
 ## Basic Example
@@ -51,8 +51,6 @@ As such, jerk-limited trajectories are commonly used in practical robotic system
 
 This example shows a jerk-limited trajectory for an object that reaches a constant velocity of 11.25 m/s.
 Note that the second waypoint is a velocity waypoint that does not include position requirements.
-
-**NOTE:** I understand Matlab `waypointTrajectory` may not behave this way. I used simple Newton's equations to create a simple Python-based waypoint generation library. As I do not have a working Matlab license, I am following the output of my Python library to explain the example.
 
 <figure>
     <img src="/assets/images/posts/jerk-limited/jerk_limited.png" alt="Jerk-limited trajectory">

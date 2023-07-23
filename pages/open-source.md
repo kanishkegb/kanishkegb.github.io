@@ -5,7 +5,7 @@ permalink: "/open-source/"
 # image: assets/images/screenshot.png
 ---
 
-A selcted set of open-source repositories where I am the main contributor and maintainer. 
+A selected set of open-source repositories where I am the main contributor and maintainer. 
 For most up-to-date details please visit [my GitHub page](https://github.com/kanishkegb).
 
 <iframe src="https://ghbtns.com/github-btn.html?user=kanishkegb&type=follow&count=true&size=large" frameborder="0" scrolling="0" width="230" height="30" title="GitHub"></iframe>

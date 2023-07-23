@@ -11,7 +11,7 @@ For most up-to-date version, please visit my [Google Scholar page](https://schol
 
 ## Journal Papers
 
-1. Geometric Adaptive controls of a quadrotor UAV with decoupled attitude dynamics, K Gamagedara, T Lee, Journal of Dynamic Systems, Measrements, and Control, DOI: [10.1115/1.4052714](https://doi.org/10.1115/1.4052714){:target="_blank"}
+1. Geometric Adaptive controls of a quadrotor UAV with decoupled attitude dynamics, K Gamagedara, T Lee, Journal of Dynamic Systems, Measurements, and Control, DOI: [10.1115/1.4052714](https://doi.org/10.1115/1.4052714){:target="_blank"}
 1. Quadrotor state estimation with IMU and delayed real-time kinematic GPS, K Gamagedara, T Lee, M Snyder, IEEE Transactions on Aerospace and Electronic Systems, 2021, DOI: [10.1109/TAES.2021.3061795](https://doi.org/10.1109/TAES.2021.3061795){:target="_blank"}
 1. On the observability of attitude with single direction measurements, W Wang, K Gamagedara, T Lee, IEEE Transactions on Automatic Control, 2020, DOI: [10.1109/TAC.2022.3179214](https://doi.org/10.1109/TAC.2022.3179214){:target="_blank"}
 
