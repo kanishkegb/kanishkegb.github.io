@@ -1,9 +1,13 @@
 ---
-layout: page
+layout: post
 title: Jerk-Limited Trajectory
-permalink: "/trajectory/"
-image: /assets/images/posts/jerk-limited/accel_limited.png
+category: [tutorials]
+image: assets/images/posts/jerk-limited/jerk_limited_header.png
+# featured: true
 ---
+
+This post tries to explain the basics of a trajectory that tries to limit the acceleration or the jerk.
+If you are not familiar, the jerk is the first time derivative of the acceleration.
 
 ## Basic Example
 
@@ -37,7 +41,7 @@ One drawback of using this method the need to change the acceleration abruptly.
 
 <figure>
     <img src="/assets/images/posts/jerk-limited/accel_limited.png" alt="Acceleration-limited trajectory">
-    <figcaption><i>Acceleration-limited trajectory: Check the velocity and acceleration plotd. Even though the position plot is visibly smooth, this trajectory generation requires sudden changes in both velocity and acceleration.</i></figcaption>
+    <figcaption><i>Acceleration-limited trajectory: Check the velocity and acceleration plots. Even though the position plot is visibly smooth, this trajectory generation requires sudden changes in both velocity and acceleration.</i></figcaption>
 </figure>
 
 
