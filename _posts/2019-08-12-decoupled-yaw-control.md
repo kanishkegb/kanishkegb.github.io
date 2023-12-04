@@ -36,7 +36,7 @@ During this process, any imbalance in the motors or the propellers may deteriora
 To address this issue, I developed an attitude control system that is decomposed into the roll/pitch dynamics and the yaw dynamics.
 This way, we can prioritize stability critical roll/pitch dynamics, and achieve yaw control at a slower rate.
 
-The control objective here is to design the thrust of each motor such that the UAV position exponentially goes to the desired position, while the normalsize direction of the first body exponentially converges to the desired direction.
+The control objective here is to design the thrust of each motor such that the UAV position exponentially goes to the desired position, while the direction of the first body exponentially converges to the desired direction.
 In this process, the position and velocity errors were used to determine the desired attitude.
 Then, this desired attitude was used to construct two separate attitude controller: roll/pitch controller that only controls the thrust direction, and yaw controller that separately controls the yaw direction.
 
@@ -44,13 +44,13 @@ Then, this desired attitude was used to construct two separate attitude controll
 
 <figure>
     <img src="{{site.baseurl}}/assets/images/posts/decoupled-yaw/decoupled-attitude-control.png" alt="Decoupled attitude controllers">
-    <figcaption>Separate attitude controllers defiend in their respective configuration spaces</figcaption>
+    <figcaption>Separate attitude controllers defined in their respective configuration spaces</figcaption>
 </figure>
 
 <br>
 
 Then, the stability of the controllers are mathematically analyzed using Lyapunov stability theorems. 
-The proposed method outperforms the similar controllers that does not consider the coupling of yaw, especially at the presence of large yaw angle manuvers, and this is demonstrated in the below video.
+The proposed method outperforms the similar controllers that does not consider the coupling of yaw, especially at the presence of large yaw angle manuevers, and this is demonstrated in the below video.
 
 <br>
 

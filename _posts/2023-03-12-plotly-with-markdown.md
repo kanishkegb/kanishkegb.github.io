@@ -6,7 +6,7 @@ image: assets/images/posts/interactive-plots/life-expectancy.png
 # featured: true
 ---
 
-If you are using Python for visualizaing data, [plotly](https://plotly.com/python/) is an awesome open-source library (also, plotly is not limited to Python). 
+If you are using Python for visualizing data, [plotly](https://plotly.com/python/) is an awesome open-source library (also, plotly is not limited to Python). 
 This let you plot interactive plots instead of the static plots Matplotlib generates by default. 
 
 First, we need to install plotly. 

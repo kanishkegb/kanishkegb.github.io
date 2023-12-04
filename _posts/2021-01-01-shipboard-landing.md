@@ -9,7 +9,7 @@ For an autonomous UAV, or for any aerial vehicle in general, one of the most saf
 This becomes even challenging when being operated off of a ship.
 Now, the ship, which is the base point of operation, is moving while rolling and pitching constantly on ocean waves.
 
-Also, the landing deck of the most ships are located on the back of the ship where the super-structure of the ship generates a turbulent air wake, which is not friendlly on small UAVs.
+Also, the landing deck of the most ships are located on the back of the ship where the super-structure of the ship generates a turbulent air wake, which is not friendly on small UAVs.
 The goal of this project is to develop a custom UAV platform (both hardware/software) system that is capable of handling autonomous operation in such harsh conditions.
 
 <figure>
@@ -32,7 +32,7 @@ Also, an adaptive geometric controller was developed to compensate for turbulent
 </figure>
 
 With the above UAV platform, the flight tests were performed onboard the US Naval Academy research vessel YP689 at Chesapeake Bay.
-All the computations, inlcuding the estimation, control, and motor control were processed inside the single onboard computer, Jetson TX2.
+All the computations, including the estimation, control, and motor control were processed inside the single onboard computer, Jetson TX2.
 
 **Features**
 * Jetson TX2 as the onboard computer

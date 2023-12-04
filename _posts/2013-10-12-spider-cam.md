@@ -5,7 +5,7 @@ categories: [research, simulation, matlab, projects]
 image: assets/images/posts/spidercam/skycam.jpg
 ---
 
-As a third year undegrad student of the Mechanical Engineering Department at the University of Peradeniya, we are required to an individual project.
+As a third year undergrad student of the Mechanical Engineering Department at the University of Peradeniya, we are required to an individual project.
 I chose to model, simulate, and design a controller for the Spider Cam system.
 
 The Spider Cam system is a cable-suspended overhead camera which is installed on venues such as sports arena.

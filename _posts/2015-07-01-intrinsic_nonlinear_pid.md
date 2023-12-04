@@ -29,7 +29,7 @@ This utilized the OpenGL to draw 3D objects, the Boost library to communicate wi
 * In-house developed controller for UAV control [[paper](https://doi.org/10.1109/ICIINFS.2015.7399049)]
 * Platform independent GUI with real-time data monitoring
 
-Below video shows the quadrotor during a fligh test at the University of Peradeniya, using the implemented nonlinear UAV controller.
+Below video shows the quadrotor during a flight test at the University of Peradeniya, using the implemented nonlinear UAV controller.
 
 
 <div class="video-container">

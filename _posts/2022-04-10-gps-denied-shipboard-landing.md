@@ -33,6 +33,7 @@ To address this, the vision-position was integrated though the delay-corrected e
 
 With the above UAV platform, the flight tests were performed onboard the US Naval Academy research vessel YP689 at Chesapeake Bay.
 All the computations, including the estimation, control, vision-processing and motor control were processed inside the single onboard computer, Jetson TX2.
+The results of this paper has been published in the journal paper "Delayed Kalman filter for vision-based autonomous flight in ocean environments" published in Control Engineering Practice [DOI: [10.1016/j.conengprac.2023.105791](https://doi.org/10.1016/j.conengprac.2023.105791)].
 
 **Features**
 * Jetson TX2 as the onboard computer
