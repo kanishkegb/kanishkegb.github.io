@@ -5,7 +5,7 @@ title: "Projects"
 # image: assets/images/screenshot.png
 ---
 
-Below are a few of the projects I have been involved in.
+Here are a few of the projects I have been involved in.
 Most of the work here were completed when I was in [Flight Dynamics and Control Lab](https://www2.seas.gwu.edu/~tylee/) at GWU.
 
 ## Autonomous Landing of a UAV on a Moving Ship

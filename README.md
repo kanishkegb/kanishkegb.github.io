@@ -2,9 +2,6 @@
 
 ## Offline Site Building
 
-# Dependencies
-1. Install [Ruby](https://www.ruby-lang.org/en/documentation/installation/)
-
 # Starting with Docker
 ```sh
 docker build -t website .
@@ -20,7 +17,7 @@ jekyll serve --host 0.0.0.0 --watch
 1. Build the website: `jekyll serve --watch`
 1. Open `localhost:4000` to check the generated website.
 
-**NOTE:** For local tests, all `/assets/css/theme.scss` must be replaced be `/assets/css/theme.css`
+**NOTE:** For local tests, all `/assets/css/theme.scss` must be replaced with `/assets/css/theme.css`
 
 # Creating a Post
 1. Create a new markdown file inside the `posts` directory.
@@ -29,7 +26,7 @@ jekyll serve --host 0.0.0.0 --watch
 1. Refresh the browser tab.
 
 
-# Made with the free Affiliates theme
+# Made with the free Affiliates theme (Kept from the original repository)
 
 [Live Demo](https://wowthemesnet.github.io/affiliates-jekyll-theme/) | [Docs & Download](https://bootstrapstarter.com/template-affiliates-bootstrap-jekyll/) |  [Buy me a coffee](https://www.wowthemes.net/donate/)
 
