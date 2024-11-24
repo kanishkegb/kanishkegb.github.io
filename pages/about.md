@@ -11,8 +11,6 @@ permalink: "/about/"
 I am a Sensor Fusion and Navigation Engineer at [Kearfott](https://www.kearfott.com).
 My work here involves working with state-of-the-art high-performance inertial navigation sensors, and their sensor fusion algorithms.
 
-{{ site.linkedin_badge }}
-
 Before that, I was a Robotics and Control Engineer working on UAVs at [American Robotics](https://www.american-robotics.com/).
 My work here involves mainly with improving the vision-based landing system of the American Robotics UAV system, "Scout".
 
