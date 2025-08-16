@@ -9,10 +9,11 @@ permalink: "/about/"
 
 
 I am a Sensor Fusion and Navigation Engineer at [Kearfott](https://www.kearfott.com).
-My work here involves working with state-of-the-art high-performance inertial navigation sensors, and their sensor fusion algorithms.
+My work here involves working with state-of-the-art high-performance inertial navigation sensors (monolithic ring laser gyros (MRLGs) + accelerometers), and their sensor fusion algorithms.
+This includes developing novel fusion algorithms for DO-178c compliant safety-critical embedded GNSS/INS systems (EGI) following model-based design approach using Mathworks Simulink toolboxes, from requirements to test cases.
 
 Before that, I was a Robotics and Control Engineer working on UAVs at [American Robotics](https://www.american-robotics.com/).
-My work here involves mainly with improving the vision-based landing system of the American Robotics UAV system, "Scout".
+My work there involved mainly with improving the vision-based landing system of the American Robotics UAV system, "Scout".
 
 <ul>
     <li><img src="/assets/images/posts/about/img6.jpeg"></li>
