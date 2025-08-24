@@ -14,22 +14,25 @@ There are a few commonly used filters, and this post discusses the most basic on
 
 Simple averaging can be one of the simplest form of filtering.
 Here, all of the measurements are used to calculate their mean value.
-Assume that the measurement at `k`-th time step is `x_k`.
+Assume that the measurement at $k$-th time step is $x_k$.
 Then, the output of the average filter takes the form: 
-```
-x_k = (x_1 + x_2 + ... + x_k) / k
-```
 
-However, you may notice that for this calculation, you need to keep a log of all the measurements so far, starting from `k = 0`.
+$$
+x_k = \frac{x_1 + x_2 + ... + x_k}{k}
+$$
+
+However, you may notice that for this calculation, you need to keep a log of all the measurements so far, starting from $k = 0$.
 To avoid that, the above expression can be re-arranged as:
-```
-x_k = (k - 1)/k · x_{k - 1} + 1/k · x_k
-```
 
-If we let `α = (k - 1)/k`, we can further simplify the above expression to:
-```
-x_k = α · x_{k - 1} + (1 - α) · x_k
-```
+$$
+x_k = \frac{k - 1}{k} \cdot x_{k - 1} + \frac{1}{k} \cdot x_k
+$$
+
+If we let $$\alpha = \frac{k - 1}{k}$$, we can further simplify the above expression to:
+
+$$
+x_k = \alpha \cdot x_{k - 1} + (1 - \alpha) \cdot x_k
+$$
 
 This is referred to as the **recursive averaging equation**.
 
@@ -63,15 +66,17 @@ Check the following section for visualizations.
 
 Moving average filter is similar to the average filter, but only considers the few most recent data sets.
 This way, the past data does not weigh down the filtered data as much as the averaging filter.
-The equation for `n`-moving average filter:
-```
-x_k = (x_{k - (n - 1)} + x_{k - (n - 2)} + ... + x_k) / n
-```
+The equation for $$n$$-moving average filter:
+
+$$
+x_k = \frac{x_{k - (n - 1)} + x_{k - (n - 2)} + ... + x_k}{n}
+$$
 
 We can re-arrange this to get a cleaner looking moving average filter equation:
-```
-x_k = x_{k - 1} + (x_k - x_{k - n})/n
-```
+
+$$
+x_k = x_{k - 1} + \frac{x_k - x_{k - n}}{n}
+$$
 
 <br>
 

@@ -15,19 +15,22 @@ The moving average filter has the same weight for all measurements.
 However, in reality, the most recent measurements have more to say about the current state.
 The low-pass filter overcome this by using a heavier weight on the most recent data.
 
-The first order low-pass filter can be written as follows with `0 < α < 1`.
-```
-x_k = α · x_{k - 1} + (1 - α) · x_k
-```
+The first order low-pass filter can be written as follows with $$0 < \alpha < 1$$.
 
-This is a bit similar to average filter, but `α` can be set arbitrarily.
-Higher `α`  (closer to 1) means less noise, but lags, while lower `α` (closer to 0) means less lag, but noisy.
+$$
+x_k = \alpha \cdot x_{k - 1} + (1 - \alpha) \cdot x_k
+$$
+
+This is a bit similar to average filter, but $$\alpha$$ can be set arbitrarily.
+Higher $$\alpha$$  (closer to 1) means less noise, but lags, while lower $$\alpha$$ (closer to 0) means less lag, but noisy.
 
 
 The first order low-pass filter in Laplace domain is:
-```
-Y(s) / X(s) = K · (1 / (𝜏s + 1))
-```
+
+$$
+\frac{Y(s)}{X(s)} = K \cdot \frac{1}{\tau s + 1}
+$$
+
 <br>
 
 **Examples**
