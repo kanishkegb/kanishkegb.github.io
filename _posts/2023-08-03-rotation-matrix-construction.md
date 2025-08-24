@@ -10,28 +10,26 @@ This a quick guide to creating a rotation matrix, mainly for the purpose of coor
 
 ## Basic Introduction
 
-Rotation matrix in `SO(3)` is a linear transformation from one coordinate frame to another.
-Let `e` and `b` be some arbitrary Euclidean coordinate frames, and `x_e` and `x_b` be vectors represented in those coordinate frame, respectively.
+Rotation matrix in $$SO(3)$$ is a linear transformation from one coordinate frame to another.
+Let $$e$$ and $$b$$ be some arbitrary Euclidean coordinate frames, and $$x^e$$ and $$x^b$$ be vectors represented in those coordinate frame, respectively.
 
-The rotation `R_eb` represents the rotation of frame `e`, relative to frame `b`.
-If we pre-multiply a vector in `b` frame (`x_b`) by this matrix, the resulting vector is how the `x_b` is represented in frame `e`.
+The rotation $$R^e_b$$ represents the rotation of frame $$b$$, relative to frame $$e$$.
+Though counter-intuitive, if we pre-multiply a vector in $$b$$ frame ($$x^b$$) by this matrix, the resulting vector is how the $$x^b$$ is represented in frame $$e$$.
 That is,
-```
-x_e = R_eb · x_b .
-```
 
-Given the properties of `SO(3)`, the inverse of `R_eb` is simply the transpose of it.
+$$x^e = R^e_b · x^b.$$
+
+Given the properties of $$SO(3)$$, the inverse of $$R^e_b$$ is simply the transpose of it.
 That is,
-```
-R_be = R_eb^T .
-```
 
-This `R_be` can be used transform a vector in frame `e` to frame `b`.
+$$R^b_e = (R^e_b)^T.$$
+
+This $$R^b_e$$ can be used transform a vector in frame $$e$$ to frame $$b$$.
 
 
 ## Constructing the Rotation Matrix
 
-Let's construct the matrix `R_eb`.
+Let's construct the matrix $$R^e_b$$.
 
 <br>
 <figure>
@@ -41,57 +39,78 @@ Let's construct the matrix `R_eb`.
 <br>
 
 Consider the frames defined above.
-In this figure, each of `ei` and `bi` are unit vectors.
-As mention above, this represents the rotation of the `e` frame relative to the `b` frame.
-All we have to do is define each of the axes of `e` frame in `b` frame.
+In this figure, each of $$e_i$$ and $$b_i$$ are unit vectors.
+As mentioned above, $$R^e_b$$ represents the rotation of the $$b$$ frame relative to the $$e$$ frame.
+In other words, $$i$$-th column of $$R^e_b$$ represents the direction of $$b_i$$ with respect to the frame $$e$$.
 
-Let's start with `e1`.
-This vector is facing `-b3` direction, and no projection on `b1` or `b2`.
-So, the vector `e1` in `b` frame can be written as
-```
-[ 0]
-[ 0]
-[-1].
-```
+<!-- For example,
+$$b_1 = R^e_b(1,1)\cdot e_1 + R^e_b(2,1)\cdot e_2 + R^e_b(3,1)\cdot e_3.$$ -->
 
-Similarly, `e2` can be written as
-```
-[ 0]
-[-1]
-[ 0],
-```
-and `e3` can be written as
-```
-[-1]
-[ 0]
-[ 0].
-```
 
-Combining all above vectors, `e` frame relative to `b` frame, or `R_eb`, can be written as
-```
-       [ 0,  0, -1]
-R_eb = [ 0, -1,  0]
-       [-1,  0,  0].
-```
+Let's start with $$b_1$$.
+This vector is facing $$-e_3$$ direction, and no projection on $$e_1$$ or $$e_2$$.
+So, the vector $$b_1$$ in $$e$$ frame can be written as
 
-## Verifying the Rotation Matrix
+$$
+b_1 =
+\begin{bmatrix} 
+0 \\
+0 \\
+-1
+\end{bmatrix}.
+$$
+
+Similarly, $$b_2$$ can be written as
+
+$$
+b_2 =
+\begin{bmatrix} 
+0 \\
+-1 \\
+0
+\end{bmatrix},
+$$
+
+and $$b_3$$ can be written as
+
+$$
+b_3 =
+\begin{bmatrix} 
+-1 \\
+0 \\
+0
+\end{bmatrix}.
+$$
+
+Combining all above vectors, the rotation of $$b$$ frame relative to $$e$$ frame, or $$R^e_b$$, can be written as
+
+$$
+R^e_b =
+\begin{bmatrix} 
+0 &  0 & -1 \\
+0 & -1 & 0 \\
+-1 &  0 &  0
+\end{bmatrix}.
+$$
+
+<!--  ## Verifying the Rotation Matrix
 
 If you are still not sure, the easiest way to verify your rotation matrix is to do a transformation.
-We know that, if we pre-multiply a vector in `b` frame by `R_eb`, it is transformed to the `e` frame.
+We know that, if we pre-multiply a vector in $$b$$ frame by $$R^e_b$$, it is transformed to the $$e$$ frame.
 
-Let's take `b1`.
-This in `b` frame is
+Let's take $b_1$.
+This in $$b$$ frame is
 ```
 [ 1]
 [ 0]
 [ 0].
 ```
 
-Pre-multiply this by `R_eb`, we get
+Pre-multiply this by $$R^e_b$$, we get
 ```
 [ 0]
 [ 0]
 [-1],
 ```
 which makes sense.
-If you repeat the same calculation for `b2` and `b3`, you will see similar results.
+If you repeat the same calculation for $b_2$ and $b_3$, you will see similar results. -->
