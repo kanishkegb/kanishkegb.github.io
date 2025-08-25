@@ -2,7 +2,7 @@
 layout: post
 title: "Git Cheatsheet"
 category: [tutorials, guides]
-image: assets/images/posts/tutorial.png
+image: assets/images/posts/coding_2.png
 # featured: true
 ---
 
