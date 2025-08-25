@@ -25,5 +25,5 @@ alias gdt='git diff-tree --no-commit-id --name-only -r'
 alias gf-'git fetch' 
 alias go='git fetch origin' 
 alias gpr= git remote prune origin'
-alias gprd="git branch -vy I git branch -vv | awk/: gone]/{print ($1)' | xargs git branch -d"
+alias gprd="git branch -vv | awk '/: gone]/{print \$1}' | xargs git branch -d" # does not need escape backslash before $ on *nix systems
 ```
