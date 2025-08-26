@@ -60,4 +60,4 @@ Where:
 
 *Note:*
 
-Current version of this post is generated partially using generative AI
+Current version of this post is generated partially using generative AI.

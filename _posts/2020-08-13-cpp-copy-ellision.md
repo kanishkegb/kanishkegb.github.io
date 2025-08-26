@@ -56,4 +56,4 @@ This means you don’t even need a move constructor for some patterns—it just 
 
 *Note:*
 
-Current version of this post is generated partially using generative AI
+Current version of this post is generated partially using generative AI.

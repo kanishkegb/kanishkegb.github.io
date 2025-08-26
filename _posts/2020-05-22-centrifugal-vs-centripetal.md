@@ -2,7 +2,7 @@
 layout: post
 title: "Centrifugal vs Centripetal Forces"
 category: [tutorials, guides, physics]
-image: assets/images/posts/tutorial.png
+image: assets/images/posts/centrifugal-vs-centripetal/centrifugal-vs-centripetal.png
 # featured: true
 ---
 
@@ -56,4 +56,4 @@ So, they’re two sides of the same coin — centripetal is the actual force kee
 
 *Note:*
 
-Current version of this post is generated partially using generative AI
+Current version of this post is generated partially using generative AI.
