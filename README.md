@@ -1,33 +1,62 @@
-# Personal Web Page
+# Personal Website
 
-## Offline Site Building
+Personal blog and portfolio built with [Jekyll](https://jekyllrb.com).
 
-# Starting with Docker
-```sh
-docker build -t website .
-docker run --rm --mount source="$(pwd)",target=/home,type=bind -p 4000:4000 -it website bash
-bundle
-jekyll serve --host 0.0.0.0 --watch
+## Prerequisites
+
+- Ruby >= 2.7 ([install guide](https://www.ruby-lang.org/en/documentation/installation/))
+- Bundler (`gem install bundler`)
+
+## Setup
+
+Install dependencies:
+
+```bash
+bundle install
 ```
 
-# Generating the Website
-1. Clone and `cd` to the website 
-1. `bundle`
-1. Edit `_config.yml`. If your site is in root: baseurl: ''.
-1. Build the website: `jekyll serve --watch`
-1. Open `localhost:4000` to check the generated website.
+## Running locally
 
-**NOTE:** For local tests, all `/assets/css/theme.scss` must be replaced with `/assets/css/theme.css`
+```bash
+bundle exec jekyll serve
+```
 
-# Creating a Post
-1. Create a new markdown file inside the `posts` directory.
-1. Keep the same file name format.
-1. Add the content to the post.
-1. Refresh the browser tab.
+The site will be available at `http://localhost:4000`.
 
+To enable live reload while editing:
 
-# Made with the free Affiliates theme (Kept from the original repository)
+```bash
+bundle exec jekyll serve --livereload
+```
 
-[Live Demo](https://wowthemesnet.github.io/affiliates-jekyll-theme/) | [Docs & Download](https://bootstrapstarter.com/template-affiliates-bootstrap-jekyll/) |  [Buy me a coffee](https://www.wowthemes.net/donate/)
+## Building for production
 
-![jekyll-affiliates-theme](https://bootstrapstarter.com/assets/img/themes/affiliates-jekyll.jpg)
+```bash
+bundle exec jekyll build
+```
+
+The output is written to the `_site/` directory.
+
+## Adding content
+
+### Blog posts
+
+Create a Markdown file in `_posts/` named `YYYY-MM-DD-title.md` with this front matter:
+
+```yaml
+---
+layout: post
+title: "Post title"
+date: YYYY-MM-DD
+tags: [tag1, tag2]
+image: /assets/images/posts/your-image.jpg  # optional thumbnail
+---
+```
+
+### Projects, open-source, and publications
+
+Edit the corresponding YAML files in `_data/`:
+
+- `_data/projects.yml`
+- `_data/open_source.yml`
+- `_data/publications.yml`

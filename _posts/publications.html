@@ -1,0 +1,103 @@
+---
+layout: page
+title: Publications
+permalink: /publications/
+description: Peer-reviewed journal papers and conference proceedings.
+---
+
+<div class="pub-section">
+  <h2 class="pub-section-title">Journal Papers</h2>
+  <div class="pub-list">
+    {% for pub in site.data.publications.journal %}
+    <div class="pub-item">
+      <span class="pub-year">{{ pub.year }}</span>
+      <div>
+        <div class="pub-title">{{ pub.title }}</div>
+        <div class="pub-authors">{{ pub.authors }}</div>
+        <div class="pub-venue">{{ pub.venue }}</div>
+        {% if pub.doi %}
+        <a href="https://doi.org/{{ pub.doi }}" class="pub-doi" target="_blank" rel="noopener">{{ pub.doi }} ↗</a>
+        {% endif %}
+        {% if pub.abstract %}
+        <div class="pub-abstract">{{ pub.abstract | strip }}</div>
+        {% endif %}
+        {% if pub.images %}
+        <div class="pub-images">
+          {% for img in pub.images %}
+          <img src="{{ img | relative_url }}" alt="Figure from {{ pub.title }}" class="pub-thumb" loading="lazy">
+          {% endfor %}
+        </div>
+        {% endif %}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>
+
+<div class="pub-section">
+  <h2 class="pub-section-title">Conference Papers</h2>
+  <div class="pub-list">
+    {% for pub in site.data.publications.conference %}
+    <div class="pub-item">
+      <span class="pub-year">{{ pub.year }}</span>
+      <div>
+        <div class="pub-title">{{ pub.title }}</div>
+        <div class="pub-authors">{{ pub.authors }}</div>
+        <div class="pub-venue">{{ pub.venue }}</div>
+        {% if pub.doi %}
+        <a href="https://doi.org/{{ pub.doi }}" class="pub-doi" target="_blank" rel="noopener">{{ pub.doi }} ↗</a>
+        {% endif %}
+        {% if pub.abstract %}
+        <div class="pub-abstract">{{ pub.abstract | strip }}</div>
+        {% endif %}
+        {% if pub.images %}
+        <div class="pub-images">
+          {% for img in pub.images %}
+          <img src="{{ img | relative_url }}" alt="Figure from {{ pub.title }}" class="pub-thumb" loading="lazy">
+          {% endfor %}
+        </div>
+        {% endif %}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>
+
+<!-- Lightbox -->
+<div id="pub-lightbox" class="pub-lightbox" role="dialog" aria-modal="true" aria-label="Image viewer">
+  <button class="pub-lightbox-close" id="pub-lightbox-close" aria-label="Close">&times;</button>
+  <img id="pub-lightbox-img" src="" alt="">
+</div>
+
+<script>
+(function () {
+  var lightbox = document.getElementById('pub-lightbox');
+  var lbImg    = document.getElementById('pub-lightbox-img');
+  var lbClose  = document.getElementById('pub-lightbox-close');
+
+  document.querySelectorAll('.pub-thumb').forEach(function (thumb) {
+    thumb.addEventListener('click', function () {
+      lbImg.src = thumb.src;
+      lbImg.alt = thumb.alt;
+      lightbox.classList.add('is-open');
+      document.body.style.overflow = 'hidden';
+      lbClose.focus();
+    });
+  });
+
+  function closeLightbox() {
+    lightbox.classList.remove('is-open');
+    document.body.style.overflow = '';
+  }
+
+  lbClose.addEventListener('click', closeLightbox);
+
+  lightbox.addEventListener('click', function (e) {
+    if (e.target === lightbox) closeLightbox();
+  });
+
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape' && lightbox.classList.contains('is-open')) closeLightbox();
+  });
+})();
+</script>

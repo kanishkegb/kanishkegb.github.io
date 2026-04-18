@@ -1,0 +1,100 @@
+journal:
+  - title: "Delayed Kalman filter for vision-based autonomous flight in ocean environments"
+    authors: "K. Gamagedara, T. Lee, M. Snyder"
+    venue: "Control Engineering Practice"
+    year: 2024
+    doi: 10.1016/j.conengprac.2023.105791
+    abstract: >
+      This paper presents a delayed Kalman filter for vision-based autonomous flight
+      of a UAV operating in ocean environments. The filter compensates for measurement
+      delays arising from onboard image processing pipelines, enabling stable closed-loop
+      control despite latency. Experimental results from flights near a US Navy research
+      vessel demonstrate robust state estimation in the presence of sea spray and ship air wake.
+    images:
+      - /assets/images/pubs/delayed-kalman-1.jpg
+      - /assets/images/pubs/delayed-kalman-2.jpg
+
+  - title: "Geometric adaptive controls of a quadrotor UAV with decoupled attitude dynamics"
+    authors: "K. Gamagedara, T. Lee"
+    venue: "Journal of Dynamic Systems, Measurement, and Control"
+    year: 2023
+    doi: 10.1115/1.4052714
+
+  - title: "Quadrotor state estimation with IMU and delayed real-time kinematic GPS"
+    authors: "K. Gamagedara, T. Lee, M. Snyder"
+    venue: "IEEE Transactions on Aerospace and Electronic Systems"
+    year: 2021
+    doi: 10.1109/TAES.2021.3061795
+
+  - title: "On the observability of attitude with single direction measurements"
+    authors: "W. Wang, K. Gamagedara, T. Lee"
+    venue: "IEEE Transactions on Automatic Control"
+    year: 2020
+    doi: 10.1109/TAC.2022.3179214
+
+conference:
+  - title: "In situ detection and analysis of ship air wakes from a US Navy research vessel"
+    authors: "M.R. Snyder, K. Gamagedara, T. Lee, J.A. Pritchard"
+    venue: "AIAA Aviation Forum"
+    year: 2021
+    doi: 10.2514/6.2021-2485
+
+  - title: "Unscented Kalman filter for INS/GNSS data fusion with time delay"
+    authors: "K. Gamagedara, T. Lee, M.R. Snyder"
+    venue: "AIAA Aviation Forum"
+    year: 2021
+    doi: 10.2514/6.2021-2486
+
+  - title: "Geometric control and experimental validation for a quadrotor UAV transporting a payload"
+    authors: "B. Yu, K. Gamagedara, S. Kim, T. Lee, J. Suk"
+    venue: "59th IEEE Conference on Decision and Control (CDC)"
+    year: 2020
+    doi: 10.1109/CDC42340.2020.9303889
+
+  - title: "Geometric controls of a quadrotor UAV with decoupled yaw control"
+    authors: "K. Gamagedara, M. Bisheban, E. Kaufman, T. Lee"
+    venue: "American Control Conference (ACC)"
+    year: 2019
+    doi: 10.23919/ACC.2019.8815189
+
+  - title: "Attitude observer on SO(3) with time-varying reference directions"
+    authors: "K. Gamagedara, T. Lee, D.E. Chang"
+    venue: "18th European Control Conference (ECC)"
+    year: 2019
+    doi: 10.23919/ECC.2019.8796126
+
+  - title: "Real-time kinematics GPS based telemetry system for airborne measurements of ship air wake"
+    authors: "K. Gamagedara, T. Lee, M.R. Snyder"
+    venue: "AIAA SciTech Forum"
+    year: 2019
+    doi: 10.2514/6.2019-2377
+
+  - title: "Studies on autonomous landing of an unmanned aerial vehicle on a moving ship"
+    authors: "A.E. Robaglia, S. Libine, K. Gamagedara, K. Takami, M.R. Snyder, T. Lee"
+    venue: "AIAA Infotech@Aerospace"
+    year: 2018
+    doi: 10.2514/6.2018-1461
+
+  - title: "Ship air wake detection using small fixed wing unmanned aerial vehicle"
+    authors: "D. Phelps, K. Gamagedara, J. Waldron, K. Patil, M. Snyder"
+    venue: "AIAA Aerospace Sciences Meeting"
+    year: 2018
+    doi: 10.2514/6.2018-0784
+
+  - title: "Vision-based relative localization for airborne measurements of ship air wake"
+    authors: "K. Gamagedara, K. Patil, T. Lee, M.R. Snyder"
+    venue: "AIAA Atmospheric Flight Mechanics Conference"
+    year: 2018
+    doi: 10.2514/6.2018-0527
+
+  - title: "Measurements of ship air wake using airborne anemometers"
+    authors: "C.J. Mallon, B.J. Muthig, K. Gamagedara, K. Patil, C. Friedman, T. Lee, M.R. Snyder"
+    venue: "55th AIAA Aerospace Sciences Meeting"
+    year: 2017
+    doi: 10.2514/6.2017-0252
+
+  - title: "Implementation of an almost globally stable intrinsic nonlinear PID controller for attitude stabilization of a quadrotor"
+    authors: "J. Somasiri, K. Gamagedara, D.H.S. Maithripala, J.M. Berg"
+    venue: "IEEE 10th International Conference on Industrial and Information Systems (ICIINFS)"
+    year: 2015
+    doi: 10.1109/ICIINFS.2015.7399049

@@ -1,0 +1,54 @@
+---
+layout: default
+---
+
+<div class="container">
+  <section class="hero">
+    <h1 class="hero-title">Hi, I'm Kanishke</h1>
+    <p class="hero-subtitle">{{ site.tagline }}</p>
+    <p class="hero-desc">{{ site.description }}</p>
+    <div class="hero-links">
+      <a href="{{ '/about' | relative_url }}" class="hero-link">About me →</a>
+      <a href="https://github.com/{{ site.author.github }}" class="hero-link" target="_blank" rel="noopener">GitHub ↗</a>
+    </div>
+  </section>
+
+  <section class="posts-section">
+    <h2 class="section-label">All Posts</h2>
+    {% if site.posts.size > 0 %}
+    <div class="card-grid">
+      {% for post in site.posts %}
+      <article class="card">
+        <div class="card-thumb">
+          {% if post.image %}
+          <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" loading="lazy">
+          {% else %}
+          <div class="card-thumb-placeholder">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2">
+              <rect x="3" y="3" width="18" height="18" rx="2"/>
+              <circle cx="8.5" cy="8.5" r="1.5"/>
+              <polyline points="21 15 16 10 5 21"/>
+            </svg>
+          </div>
+          {% endif %}
+        </div>
+        <div class="card-body">
+          <time class="card-date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</time>
+          <h3 class="card-title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+          <p class="card-excerpt">{{ post.excerpt | strip_html | truncatewords: 22 }}</p>
+          {% if post.tags and post.tags.size > 0 %}
+          <div class="card-tags">
+            {% for tag in post.tags %}
+            <span class="tag">{{ tag }}</span>
+            {% endfor %}
+          </div>
+          {% endif %}
+        </div>
+      </article>
+      {% endfor %}
+    </div>
+    {% else %}
+    <p class="empty-state">No posts yet. Check back soon!</p>
+    {% endif %}
+  </section>
+</div>

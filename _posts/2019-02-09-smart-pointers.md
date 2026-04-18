@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Smart Pointer in C++"
+title: "Smart Pointers in C++"
 category: [tutorials, guides, coding]
 image: assets/images/posts/coding.jpg
 # featured: true

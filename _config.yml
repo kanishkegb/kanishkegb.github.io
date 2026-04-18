@@ -1,70 +1,39 @@
-# Site settings
-title : Kanishke Gamagedara
-title_separator : "-"
-subtitle : # site tagline that appears below site title in masthead
-permalink: "/:title/"
-logo: 'assets/images/logo_32.png'
-favicon: 'favicon.ico'
-name : "Kanishke Gamagedara"
-description : "My personal website"
-url : https://kanishkegb.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl : "" # the subpath of your site, e.g. "/blog"
-repository : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-masthead_title : # overrides the website title displayed in the masthead, use " " for no title
-# breadcrumbs : false # true, false (default)
+title: Kanishke Gamagedara
+tagline: Sensor Fusion & Navigation Engineer
+description: Personal website and blog about UAVs, robotics, control systems, navigation, and embedded software engineering.
+url: "https://kanishkegb.github.io"
+baseurl: ""
 
-locale: en_us
-lang: en_us
-words_per_minute : 200
-paginate: 10
-paginate_path: "/page:num/"
+author:
+  name: Kanishke Gamagedara
+  github: kanishkegb
+  twitter: kanishkegb
+  linkedin: kanishkegb
 
-
-# Conversion
+# Build settings
 markdown: kramdown
 highlighter: rouge
-lsi: false
-excerpt_separator: "\n\n"
-incremental: false
+permalink: /:year/:month/:day/:title/
 
-sass:
-  sass_dir: _sass
-  style: :compressed
-ganalytics: 
-
-# Markdown Processing
 kramdown:
   input: GFM
-  hard_wrap: false
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  smart_quotes: lsquo,rsquo,ldquo,rdquo
-  enable_coderay: false
-
+  syntax_highlighter: rouge
+  math_engine: null
 
 # Plugins
-gems:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
+plugins:
   - jekyll-feed
-  - jemoji
-  - jekyll-include-cache
   - jekyll-seo-tag
-  - jekyll-archives
 
+# Sass
+sass:
+  style: compressed
 
-# Social
-social:
-  github           : https://github.com/kanishkegb
-  instagram        : https://instagram.com/kanishkegb
-  linkedin         : https://www.linkedin.com/in/kanishkegb
-  stackoverflow    : https://stackoverflow.com/users/8371691/kani
-  twitter          : https://twitter.com/kanishkegb
-
-linkedin_badge: |
-  <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
-  <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="kanishkegb" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://www.linkedin.com/in/kanishkegb?trk=profile-badge">Kanishke Gamagedara</a></div>
+# Exclude from build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .git
+  - README.md
