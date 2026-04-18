@@ -37,3 +37,4 @@ exclude:
   - vendor
   - .git
   - README.md
+  - CLAUDE.md

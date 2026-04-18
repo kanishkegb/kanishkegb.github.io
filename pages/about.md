@@ -6,7 +6,7 @@ permalink: /about/
 ---
 
 
-<script src="/md-gallery.js"></script>
+<script src="/assets/js/md-gallery.js"></script>
 
 <div class="about-intro">
   <img src="/assets/images/bio.jpg" alt="Kanishke Gamagedara" class="about-avatar">
