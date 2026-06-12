@@ -1,0 +1,52 @@
+- title: Autonomous Landing of a UAV on a Moving Ship
+  description: >
+    Complete UAV system for autonomous landing on moving naval vessels in marine environments.
+    Developed a vision-based relative localization system, a geometric decoupled-yaw controller,
+    and a delayed Kalman filter to compensate for GPS time delays and ship air-wake disturbances.
+    Hardware deployed on Jetson TX2 with custom PCB, tested on US Navy research vessels.
+  tech: [C++, Jetson TX2, ROS, Kalman Filter, Custom PCB, SwiftNav GPS, VN100 IMU]
+  links:
+    - label: Controller Paper
+      url: https://doi.org/10.23919/ACC.2019.8815189
+    - label: Estimator Paper
+      url: https://doi.org/10.1109/TAES.2021.3061795
+
+- title: Decoupled-Yaw Geometric Controllers for UAVs
+  description: >
+    Novel geometric control algorithm that reduces trajectory tracking errors during aggressive
+    maneuvers involving large yaw-angle changes. Includes adaptive extensions for robustness
+    against unknown wind disturbances. Validated experimentally using a Vicon motion capture system
+    and published in peer-reviewed journals.
+  tech: [MATLAB, Python, C++, Vicon Motion Capture, Geometric Control]
+  links:
+    - label: Journal Paper (JDSMC 2023)
+      url: https://doi.org/10.1115/1.4052714
+    - label: Conference Paper (ACC 2019)
+      url: https://doi.org/10.23919/ACC.2019.8815189
+
+- title: Ship Air-Wake Detection Using Unmanned Aerial Vehicles
+  description: >
+    Multi-platform UAV system for measuring and characterizing ship air-wake — the turbulent
+    airflow behind a naval vessel. Used an octocopter and a fixed-wing aircraft equipped with
+    anemometers and RTK GPS, achieving 2 cm relative positioning accuracy for precise measurements.
+  tech: [Raspberry Pi, Arduino, Python, Kalman Filter, RTK GPS, IMU, Anemometers]
+  links:
+    - label: Paper (AIAA 2019)
+      url: https://doi.org/10.2514/6.2019-2377
+
+- title: Intrinsic Nonlinear PID Controller for Quadrotor
+  description: >
+    Undergraduate capstone project implementing a near-globally stable geometric attitude
+    controller for quadrotor stabilization. The intrinsic design operates directly on the
+    SO(3) manifold, avoiding singularities inherent in Euler-angle-based approaches.
+  tech: [Multi-Wii, Geometric Control, Real-time Monitoring]
+  links:
+    - label: Paper (ICIINFS 2015)
+      url: https://doi.org/10.1109/ICIINFS.2015.7399049
+
+- title: Mathematical Modelling of a SpiderCam System
+  description: >
+    MATLAB simulation of a cable-driven camera system (SpiderCam) incorporating full
+    rigid-body dynamics and cable-sagging effects. Designed waypoint tracking controllers
+    for smooth camera motion in large-scale sports venues.
+  tech: [MATLAB, Simulink, Cable Dynamics, Control Design]

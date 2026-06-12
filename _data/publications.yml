@@ -1,0 +1,169 @@
+dissertation:
+  - title: "Geometric Control and Estimation for Autonomous UAVs in Ocean Environments"
+    authors: "Kanishke Gamagedara"
+    venue: "The George Washington University "
+    year: 2022
+    doi: https://www.proquest.com/openview/59dee56ea67c19405cf4ee5c26582886
+    abstract: This dissertation presents the development of a multi-rotor UAV platform capable of operating in ocean environments where the base of operation is a surface vessel. The rolling and pitching motion of the ship, coupled with the turbulent wind conditions in ocean, makes autonomous flight of UAV in such environments challenging. To address that, a novel estimator and a geometric controller for UAV are developed, and they are implemented on a custom-made UAV hardware and software platform. Further, a visual-inertial odometry approach is integrated into the developed system to operate UAV in GPS-denied environments.
+    images:
+      - /assets/images/pubs/dissertation1.png
+      - /assets/images/pubs/dissertation2.png
+      - /assets/images/pubs/dissertation3.png
+
+journal:
+  - title: "Delayed Kalman filter for vision-based autonomous flight in ocean environments"
+    authors: "K. Gamagedara, T. Lee, M. Snyder"
+    venue: "Control Engineering Practice"
+    year: 2024
+    doi: 10.1016/j.conengprac.2023.105791
+    abstract: This paper presents the developments of flight hardware and software for a multirotor unmanned aerial vehicle, performing autonomous take-off and landing on a moving vessel in ocean environments. The proposed flight hardware is composed of a general-purpose computing module connected to a low-cost inertial measurement, an real-time kinematics GPS, motor speed controller, and a camera, through a custom-made printed circuit board. The flight software is developed in C++ with multi-threading such that the multiple tasks of control, estimation, and communication are executed simultaneously. The proposed flight system is verified with autonomous flight experiments on a United States Naval Academy research vessel operating in Chesapeake Bay. Two types of flight experiments are performed - autonomous flight utilizing real-time kinematics GPS for relative positioning, and vision-based autonomous flight, both for shipboard launch and landing.
+    images:
+      - /assets/images/pubs/dkf1.png
+      - /assets/images/pubs/dkf2.png
+      - /assets/images/pubs/dkf3.png
+
+  - title: "Geometric adaptive controls of a quadrotor UAV with decoupled attitude dynamics"
+    authors: "K. Gamagedara, T. Lee"
+    venue: "Journal of Dynamic Systems, Measurement, and Control"
+    year: 2023
+    doi: 10.1115/1.4052714
+    abstract: This paper presents a geometric adaptive position tracking control system for a quadrotor unmanned aerial vehicle. In particular, the attitude control system is designed on the product of the two-dimensional unit sphere and the one-dimensional circle such that the direction of the thrust that is critical for position tracking is controlled independently from the yawing direction that is irrelevant to the position dynamics. Compared against the prior work with coupled attitude controls on the special orthogonal group, the proposed controller prevents large yaw errors from causing an undesirable performance degradation in tracking a position command. Further, the control input is augmented with adaptive control terms to mitigate the effects of disturbances, and it is formulated globally on the spheres to avoid singularities and complexities of local coordinates. The efficacy of the proposed control system is illustrated by both numerical examples and indoor/outdoor flight experiments.
+    images:
+      - /assets/images/pubs/gac1.png
+      - /assets/images/pubs/gac2.png
+      - /assets/images/pubs/gac3.png
+
+  - title: "Quadrotor state estimation with IMU and delayed real-time kinematic GPS"
+    authors: "K. Gamagedara, T. Lee, M. Snyder"
+    venue: "IEEE Transactions on Aerospace and Electronic Systems"
+    year: 2021
+    doi: 10.1109/TAES.2021.3061795
+    abstract: This article presents an estimation scheme for the six degree-of-freedom position and attitude of an aerial vehicle by integrating an inertial measurement unit (IMU) and a low-cost real-time kinematic GPS unit, which delivers a precise relative position measurement corrupted by a time-delay. Assuming that the time-delay is known, the extended Kalman filter is generalized to fuse the time-lagged position measurement from GPS with the synchronous attitude and angular velocity measurements from IMU. More specifically, it is formulated as an optimal prediction where the past state is corrected by the position measurement before being propagated up to the current time with the history of the IMU measurements. This provides a compact formulation to merge multiple sensors with varying time-delays in an optimal fashion. The efficacy of the proposed approach is illustrated by a numerical example, experimental data collected over a Navy research vessel, and an outdoor autonomous flight of a quadrotor unmanned aerial vehicle.
+    images:
+      - /assets/images/pubs/ekf1.png
+      - /assets/images/pubs/ekf2.png
+
+  - title: "On the observability of attitude with single direction measurements"
+    authors: "W. Wang, K. Gamagedara, T. Lee"
+    venue: "IEEE Transactions on Automatic Control"
+    year: 2020
+    doi: 10.1109/TAC.2022.3179214
+    abstract: The attitude of a rigid body evolves on the three-dimensional (3-D) special orthogonal group, and it is often estimated by measuring reference directions, such as gravity or magnetic field, using onboard sensors. As a single direction measurement provides a 2-D constraint, it has been widely accepted that at least two nonparallel reference directions should be measured, or the reference direction should change over time, to determine the attitude completely. This article uncovers an intriguing fact that the attitude can actually be estimated by using multiple measurements of a single, fixed reference direction, provided that the angular velocity and the direction measurements are resolved in appropriate frames, respectively. More specifically, after recognizing that the attitude uncertainties propagated over the left-trivialized stochastic kinematics are distinct from those over the right-trivialized one, stochastic attitude observability with single direction measurements is formulated by an information theoretic analysis. These are illustrated by experiments.
+    images:
+      - /assets/images/pubs/obs1.png
+
+conference:
+  - title: "In situ detection and analysis of ship air wakes from a US Navy research vessel"
+    authors: "M.R. Snyder, K. Gamagedara, T. Lee, J.A. Pritchard"
+    venue: "AIAA Aviation Forum"
+    year: 2021
+    doi: 10.2514/6.2021-2485
+    abstract: This paper discusses the direct measurement of ship air wakes from US Naval Academy Research Vessel YP700 using an instrumented unmanned aerial system (UAS). The octocopter UAS carries two mini ultrasonic anemometers that allow for the direct measurement of the air wake encountered by the UAS as it flies astern of YP700. The anemometers are placed outside the downwash region produced by the octocopter. Data collected by the anemometers is corrected for UAS attitude and motion. The relative position of the UAS is determined using a high precision real-time kinematic GPS system. UAS inertial measurement unit (IMU) air wake induced vibrational data provides another measure of air wake impact on the UAS. Small UAS launch and recovery envelopes can then be determined in a manner like that used to determine launch and recovery envelopes for manned naval rotary wing aircraft.
+    images:
+      - /assets/images/pubs/ship1.png
+      - /assets/images/pubs/ship2.png
+
+  - title: "Unscented Kalman filter for INS/GNSS data fusion with time delay"
+    authors: "K. Gamagedara, T. Lee, M.R. Snyder"
+    venue: "AIAA Aviation Forum"
+    year: 2021
+    doi: 10.2514/6.2021-2486
+    abstract: This paper presents an estimation scheme for an unmanned aerial vehicle (UAV) operating around a Navy research vessel in ocean environments. Estimating the accurate position of a UAV relative to a ship is critical for airborne measurements of ship air wake and autonomous close-proximity flights. However, the position measurements from a low-cost real-time kinematics (RTK) GPS system or vision-based localization often suffer from time-delays caused by communication overload or associated computation. In this paper, an unscented Kalman filter is developed to integrate time-delayed relative position measurements with non-delayed inertial measurements to accurately estimate the position and the attitude of a UAV relative to a ship. The proposed approach is composed of correction with the delayed measurement and forward-propagation to the current time. The efficacy of the proposed scheme is illustrated by a numerical example.
+    images:
+      - /assets/images/pubs/ukf1.png
+
+  - title: "Geometric control and experimental validation for a quadrotor UAV transporting a payload"
+    authors: "B. Yu, K. Gamagedara, S. Kim, T. Lee, J. Suk"
+    venue: "59th IEEE Conference on Decision and Control (CDC)"
+    year: 2020
+    doi: 10.1109/CDC42340.2020.9303889
+    abstract: This paper presents a control system for a quadrotor unmanned aerial vehicle transporting a payload connected by a link. This system is considered as a multibody system evolving a nonlinear configuration manifold to construct an intrinsic global formulation of the dynamics. Based on this, a geometric control system is proposed such that the payload follows an arbitrary desired trajectory. In particular, the effects of the mass distribution of the link connecting the quadrotor and the payload are explicitly considered in the dynamic model and the stability analysis. Furthermore, the control system is designed to eliminate the adverse effects of disturbances. The efficacy of the proposed geometric tracking control system is illustrated by both a numerical example and an indoor flight experiment.
+    images:
+      - /assets/images/pubs/payload1.png
+      - /assets/images/pubs/payload2.png
+      - /assets/images/pubs/payload3.png
+
+  - title: "Geometric controls of a quadrotor UAV with decoupled yaw control"
+    authors: "K. Gamagedara, M. Bisheban, E. Kaufman, T. Lee"
+    venue: "American Control Conference (ACC)"
+    year: 2019
+    doi: 10.23919/ACC.2019.8815189
+    abstract: This paper presents a geometric control system for a quadrotor unmanned aerial vehicle with decoupled attitude controls. In particular, the attitude control system on the special orthogonal group is decomposed into the reduced attitude controls for the total thrust direction evolving on the two-dimensional unit sphere, and for the remaining one-dimensional rotations about the thrust vector corresponding to the yawing motion. Consequently, the yaw dynamics are controlled separately from the roll and pitch dynamics that are critical for the stability of the translational dynamics of the quadrotor. As such, the proposed controller exhibits improved position tracking capabilities especially for large-angle yawing motions. These are constructed directly on the two-sphere and the one-sphere to avoid complexities and singularities associated with local coordinates. Furthermore, the control systems are augmented with integral terms to deal with fixed disturbances. The efficacy of the proposed method is illustrated by numerical simulation.
+    images:
+      - /assets/images/pubs/decoupled1.png
+
+  - title: "Attitude observer on SO(3) with time-varying reference directions"
+    authors: "K. Gamagedara, T. Lee, D.E. Chang"
+    venue: "18th European Control Conference (ECC)"
+    year: 2019
+    doi: 10.23919/ECC.2019.8796126
+    abstract: This paper introduces an advanced Lyapunov stability analysis for an attitude observer that has been developed on the special orthogonal group. In particular, when the attitude observer is constructed based on multiple direction measurements toward known reference points, a local exponential stability has been established by linearization, under the assumption that those reference points are fixed in the inertial frame. Several modifications have been proposed to deal with reference directions changing over time. Here, we present an alternative Lyapunov analysis to show that the attitude observer still exhibits exponential stability for time-varying reference directions, under the assumption that the observer gain is sufficiently large relative to the rate of change of the reference directions. These are illustrated by a numerical example, followed by experimental results with visual marker detection in an indoor space.
+    images:
+      - /assets/images/pubs/observer1.png
+      - /assets/images/pubs/observer2.png
+
+  - title: "Real-time kinematics GPS based telemetry system for airborne measurements of ship air wake"
+    authors: "K. Gamagedara, T. Lee, M.R. Snyder"
+    venue: "AIAA SciTech Forum"
+    year: 2019
+    doi: 10.2514/6.2019-2377
+    abstract: This paper presents the development of hardware and software for a telemetry system to measure the air wake around a Navy vessel. The proposed system is based on the direct measurements of wake obtained by two anemometers attached to an unmanned aerial vehicle, which is manually flown over the area of interests. In particular,we utilize a low-cost, real-time kinematics (RTK) GPS system for precise relative localization. An extended Kalman filter is developed to integrate the GPS measurements with an inertial measurement unit, so as to estimate the orientation and the location of the anemometers. These are utilized to construct the air wake fields with respect to a reference frame attached to the ship. The efficacy of the proposed system is illustrated by underway flight experiments performed on the Naval Academy research vessel YP689 in the ChesapeakeBay.
+    images:
+      - /assets/images/pubs/telemetry1.png
+      - /assets/images/pubs/telemetry2.png
+      - /assets/images/pubs/telemetry3.png
+      - /assets/images/pubs/telemetry4.png
+
+  - title: "Studies on autonomous landing of an unmanned aerial vehicle on a moving ship"
+    authors: "A.E. Robaglia, S. Libine, K. Gamagedara, K. Takami, M.R. Snyder, T. Lee"
+    venue: "AIAA Infotech@Aerospace"
+    year: 2018
+    doi: 10.2514/6.2018-1461
+    abstract: This paper presents guidance and navigation schemes for autonomous landing of an unmanned aerial vehicle to the flight deck of a cruising vessel. A vision-based navigation scheme is proposed to determine the relative location of the aerial vehicle to the flight deck precisely using an on-board camera. Given the relative position, a desired landing trajectory satisfying various safety criteria is constructed. Both of the hardware and the software platforms have been developed and tested for the proposed approaches. The proposed navigation scheme is illustrated by processing the video images captured by an unmanned aerial vehicle flying around a Navy vessel, YP-700. Also, the presented guidance technique is validated via indoor flight experiments with a quadrotor unmanned aerial vehicle.
+    images:
+      - /assets/images/pubs/landing1.png
+      - /assets/images/pubs/landing2.png
+
+  - title: "Ship air wake detection using small fixed wing unmanned aerial vehicle"
+    authors: "D. Phelps, K. Gamagedara, J. Waldron, K. Patil, M. Snyder"
+    venue: "AIAA Aerospace Sciences Meeting"
+    year: 2018
+    doi: 10.2514/6.2018-0784
+    abstract: A ship’s air wake is dynamically detected using an airborne inertial measurement unit and global positioning system attached to a fixed wing unmanned aerial system. The instrumented aircraft is used for validation of computational fluid dynamic simulations of naval ship air wakes. A simulation was completed using Gridtool, VGrid, and Kestral to validate the experimental data collection method. Forces from the experiment were collected and compared with that of a one-way coupled CFD simulation mimicking the physical experiment. Similar trends in forces that indicate detection of the ship air wake were observed in both experimental and simulation data.
+    images:
+      - /assets/images/pubs/ship_air_wake1.png
+      - /assets/images/pubs/ship_air_wake2.png
+      - /assets/images/pubs/ship_air_wake3.png
+
+  - title: "Vision-based relative localization for airborne measurements of ship air wake"
+    authors: "K. Gamagedara, K. Patil, T. Lee, M.R. Snyder"
+    venue: "AIAA Atmospheric Flight Mechanics Conference"
+    year: 2018
+    doi: 10.2514/6.2018-0527
+    abstract: This paper presents the development of a set of telemetry systems to measure ship air wake with an unmanned aerial vehicle, and an estimate scheme to determine the location of the aerial vehicle relative to the ship precisely. The telemetry system attached to the unmanned aerial vehicle is composed of two anemometers for measuring the speed and the direction of air wake, IMU and GPS modules for localization, a micro SD card for data logging, and a wireless transmitter for real-time monitoring. There is also a base station fixed to the ship with the same hardware components and a wide-angle video camera to capture the trajectory of the aerial vehicle. Then, an estimate scheme is proposed to determine the trajectory of the aerial vehicle relative to the ship precisely, by integrating two GPS measurements with the video images processed to capture the aerial vehicle. These results are illustrated by experiments on a US Navy YP700 vessel.
+    images:
+      - /assets/images/pubs/vision1.png
+      - /assets/images/pubs/vision2.png
+      - /assets/images/pubs/vision3.png
+      - /assets/images/pubs/vision4.png
+
+  - title: "Measurements of ship air wake using airborne anemometers"
+    authors: "C.J. Mallon, B.J. Muthig, K. Gamagedara, K. Patil, C. Friedman, T. Lee, M.R. Snyder"
+    venue: "55th AIAA Aerospace Sciences Meeting"
+    year: 2017
+    doi: 10.2514/6.2017-0252
+    abstract: Ship air wake is dynamically surveyed in-situ using an airborne measurement system, which measures magnitude and direction of air velocity, as well as anemometer location and orientation. The system is not restricted to ship deck locations so it has the ability to quickly survey the ship’s air wake and collect measurements at distances oﬀ the ship’s stern, which is not possible with fixed-position deck-mounted anemometers. The air wake will be surveyed by two ultrasonic anemometers mounted on an eight-rotor unmanned aircraft system with a high payload capability. Air velocities induced by the angular and linear motions of the unmanned aircraft system are subtracted from the total measured velocities. The platform’s motions are measured using a collection of on-board sensors, while also incorporating a GPS to register the location of each measurement. Initial results are presented from outdoor experiments in the field.
+    images:
+      - /assets/images/pubs/air_wake1.png
+      - /assets/images/pubs/air_wake2.png
+      - /assets/images/pubs/air_wake3.png
+
+  - title: "Implementation of an almost globally stable intrinsic nonlinear PID controller for attitude stabilization of a quadrotor"
+    authors: "J. Somasiri, K. Gamagedara, D.H.S. Maithripala, J.M. Berg"
+    venue: "IEEE 10th International Conference on Industrial and Information Systems (ICIINFS)"
+    year: 2015
+    doi: 10.1109/ICIINFS.2015.7399049
+    abstract: This paper presents flight test results that demonstrate the effectiveness of a locally exponential and almost-globally stable geometric PID controller for attitude stabilization. The controller is implemented on a low cost off the shelf Arduino based quadrotor platform. The controller requires only a rough estimate of the inertia tensor of the device. It is implemented entirely using the onboard processor and does not require any off board sensing or processing. The results presented show that the implemented nonlinear PID is capable of quickly stabilizing any desired vertically upright configuration for large deviations from the desired equilibrium.
+    images:
+      - /assets/images/pubs/pid1.png
+      - /assets/images/pubs/pid2.png

@@ -1,0 +1,34 @@
+- title: ArUco Markers Detection and Pose Estimation
+  repo: fdcl-gwu/aruco-markers
+  url: https://github.com/fdcl-gwu/aruco-markers
+  language: C++
+  description: >
+    Working examples and tutorial for detection and 6-DoF pose estimation of ArUco markers
+    using OpenCV. Useful for robot navigation, augmented reality, and UAV relative localization tasks.
+
+- title: UAV Geometric Control
+  repo: fdcl-gwu/uav_geometric_control
+  url: https://github.com/fdcl-gwu/uav_geometric_control
+  language: MATLAB / Python / C++
+  description: >
+    Reference implementations of coupled-yaw and decoupled-yaw geometric controllers for
+    quadrotor UAVs, available in MATLAB, Python, and C++. Based on published research from
+    the Flight Dynamics and Control Lab at George Washington University.
+
+- title: UAV Simulator
+  repo: fdcl-gwu/uav_simulator
+  url: https://github.com/fdcl-gwu/uav_simulator
+  language: Python
+  description: >
+    A complete simulation environment for quadrotor UAVs that integrates geometric controllers
+    and state estimators with an open-source physics engine. Useful for rapid prototyping and
+    algorithm validation before hardware deployment.
+
+- title: Delayed Kalman Filters Comparison
+  repo: fdcl-gwu/dkf-comparison
+  url: https://github.com/fdcl-gwu/dkf-comparison
+  language: Python
+  description: >
+    Comparative analysis of multiple delayed Kalman filter formulations for UAV state estimation
+    when GPS measurements arrive with time delays. Companion code for the journal paper published
+    in IEEE Transactions on Aerospace and Electronic Systems.
