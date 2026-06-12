@@ -6,6 +6,35 @@ description: Peer-reviewed journal papers and conference proceedings.
 ---
 
 <div class="pub-section">
+  <h2 class="pub-section-title">Dissertation</h2>
+  <div class="pub-list">
+    {% for pub in site.data.publications.dissertation %}
+    <div class="pub-item">
+      <span class="pub-year">{{ pub.year }}</span>
+      <div>
+        <div class="pub-title">{{ pub.title }}</div>
+        <div class="pub-authors">{{ pub.authors }}</div>
+        <div class="pub-venue">{{ pub.venue }}</div>
+        {% if pub.doi %}
+        <a href="{{ pub.doi }}" class="pub-doi" target="_blank" rel="noopener">{{ pub.doi }} ↗</a>
+        {% endif %}
+        {% if pub.abstract %}
+        <div class="pub-abstract">{{ pub.abstract | strip }}</div>
+        {% endif %}
+        {% if pub.images %}
+        <div class="pub-images">
+          {% for img in pub.images %}
+          <img src="{{ img | relative_url }}" alt="Figure from {{ pub.title }}" class="pub-thumb" loading="lazy">
+          {% endfor %}
+        </div>
+        {% endif %}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>
+
+<div class="pub-section">
   <h2 class="pub-section-title">Journal Papers</h2>
   <div class="pub-list">
     {% for pub in site.data.publications.journal %}
